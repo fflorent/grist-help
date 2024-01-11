@@ -48,12 +48,12 @@ To convert a table to be an "On Demand" table, open the right panel,
 pick the "Table" panel, and the "Data" section.  Click on "Advanced
 Settings" and you should see a "Make On-Demand" button.
 
-![on-demand-button](images/on-demand/on-demand-button.png)
+![on-demand-button](../images/on-demand/on-demand-button.png)
 
 If you change your mind, and don't want the table to be "On-Demand" anymore,
 you can find a button to undo this setting in the same place:
 
-![on-demand-undo](images/on-demand/on-demand-undo.png)
+![on-demand-undo](../images/on-demand/on-demand-undo.png)
 
 Changing a table to become "On-Demand" or to stop being "On-Demand" will
 force the document to reload for all users viewing it at that moment.

@@ -28,7 +28,7 @@ Chestwood Art Studio ships art across the country and has the option of monthly 
 
 We have the subtotal, the tax (based on the state it is shipping to) and Amount Due Monthly. This formula column uses addition, multiplication and division.
 
-<span class="screenshot-large">*![simple-math](images/formula-cheat-sheet/simple-math.png)*</span>
+<span class="screenshot-large">*![simple-math](../images/formula-cheat-sheet/simple-math.png)*</span>
 
 The formula used here is:
 ```
@@ -57,7 +57,7 @@ Allows you to find the [max](functions.md#max) or [min](functions.md#min) values
 
 **Max**: Classes table of the [Class Enrollment](https://templates.getgrist.com/doc/afterschool-program){:target="\_blank"} template.
 
-<span class="screenshot-large">*![max](images/formula-cheat-sheet/max.png)*</span>
+<span class="screenshot-large">*![max](../images/formula-cheat-sheet/max.png)*</span>
 
 The formula used in the 'Spots Left' column of the Classes table is:
 ```
@@ -71,7 +71,7 @@ When `$Count` is less than `$Max_Students`, the difference `$Max_Students - $Cou
 
 **Min**: Contacts table of the [Lightweight CRM](https://templates.getgrist.com/doc/lightweight-crm){:target="\_blank"} template.
 
-<span class="screenshot-large">*![min](images/formula-cheat-sheet/min.png)*</span>
+<span class="screenshot-large">*![min](../images/formula-cheat-sheet/min.png)*</span>
 
 The formula used in the 'Due' column of the Contacts table is:
 ```
@@ -104,7 +104,7 @@ Use the [SUM()](functions.md#sum) function when you want to sum a list of values
 
 **[Custom Product Builder](https://templates.getgrist.com/gZmzYoGdS6b1/Custom-Product-Builder/p/6){:target="\_blank"} template**
 
-<span class="screenshot-large">*![sum](images/formula-cheat-sheet/sum-custom-product-builder.png)*</span>
+<span class="screenshot-large">*![sum](../images/formula-cheat-sheet/sum-custom-product-builder.png)*</span>
 
 The formula used in the Total Cost column of the Select or Add New Products table is:
 ```
@@ -118,7 +118,7 @@ We use SUM() to sum the costs from each record.
 
 **[Inventory Manager](https://templates.getgrist.com/sXsBGDTKau1F/Inventory-Manager){:target="\_blank"} template**
 
-<span class="screenshot-large">*![sum](images/formula-cheat-sheet/sum-inventory-manager.png)*</span>
+<span class="screenshot-large">*![sum](../images/formula-cheat-sheet/sum-inventory-manager.png)*</span>
 
 The formula used in the Received column of the All Products table is:
 ```
@@ -143,7 +143,7 @@ When comparing for equality in Python, we use `==` for 'equals' and `!=` for 'do
 
 **[Inventory Manager](https://templates.getgrist.com/sXsBGDTKau1F/Inventory-Manager/p/10){:target="\_blank"} template**
 
-<span class="screenshot-large">*![equality-received-qty](images/formula-cheat-sheet/equality-received-qty.png)*</span>
+<span class="screenshot-large">*![equality-received-qty](../images/formula-cheat-sheet/equality-received-qty.png)*</span>
 
 The formula used in the Received Qty column of the Incoming Order Line Items table is:
 ```
@@ -154,7 +154,7 @@ else:
 ```
 The Order column of the Incoming Order Line Items Table is a reference column that points to the Order Number column of the Incoming Orders table. `$Order.Status` uses dot notation to pull the value from the Status column of the Incoming Orders table. If the value in this column is equal to `Received`, the value from the Qty column will be returned.  If the value is not equal to `Received`, nothing is returned.
 
-<span class="screenshot-large">*![equality-date-received](images/formula-cheat-sheet/equality-date-received.png)*</span>
+<span class="screenshot-large">*![equality-date-received](../images/formula-cheat-sheet/equality-date-received.png)*</span>
 
 The formula used in the Date Received column of the [Create New Order](https://templates.getgrist.com/sXsBGDTKau1F/Inventory-Manager/p/16#a1.s35.r11.c82){:target="\_blank"} table is:
 ```
@@ -170,7 +170,7 @@ This is a [trigger formula](formulas.md#trigger-formulas) that is triggered when
 
 **[Project Management](https://templates.getgrist.com/hifkng53AxyQ/Project-Management/p/9){:target="\_blank"} template**
 
-<span class="screenshot-large">*![inequality-missed-deadline](images/formula-cheat-sheet/inequality-missed-deadline.png)*</span>
+<span class="screenshot-large">*![inequality-missed-deadline](../images/formula-cheat-sheet/inequality-missed-deadline.png)*</span>
 
 The formula used in the Missed Deadline column of the Missed Deadline table is:
 ```
@@ -192,7 +192,7 @@ Allows you to compare numerical values. If Sales is equal to `1200` and Running_
 
 **[Inventory Manager](https://templates.getgrist.com/sXsBGDTKau1F/Inventory-Manager){:target="\_blank"} template**
 
-<span class="screenshot-large">*![comparing-values-stock-alert](images/formula-cheat-sheet/comparing-values-stock-alert.png)*</span>
+<span class="screenshot-large">*![comparing-values-stock-alert](../images/formula-cheat-sheet/comparing-values-stock-alert.png)*</span>
 
 The formula used in the Stock Alert column of the All Products table is:
 ```
@@ -214,7 +214,7 @@ Last, if all statements are false, return "OUT OF STOCK".
 
 **[Internal Links Tracker for SEO](https://templates.getgrist.com/j9ZH7rPGafbH/Internal-Links-Tracker-for-SEO){:target="\_blank"} template**
 
-<span class="screenshot-large">*![comparing-values-orphaned](images/formula-cheat-sheet/comparing-values-orphaned.png)*</span>
+<span class="screenshot-large">*![comparing-values-orphaned](../images/formula-cheat-sheet/comparing-values-orphaned.png)*</span>
 
 The formula used in the Orphaned? column of the Orphaned Pages table is:
 ```
@@ -243,7 +243,7 @@ We use [len()](functions.md#len) to count the number of records found. If it's l
 
 **[Artwork Orders](https://public.getgrist.com/fR4erkJzSpBd/Artwork-Orders/m/fork){:target="\_blank"}**
 
-<span class="screenshot-large">*![string-to-float](images/formula-cheat-sheet/string-to-float.png)*</span>
+<span class="screenshot-large">*![string-to-float](../images/formula-cheat-sheet/string-to-float.png)*</span>
 
 The formula used in the Sale Price column is:
 ```
@@ -268,32 +268,32 @@ If the value in the Appraisal Value column ***does not*** end with "k", and only
 </summary>
 if you are trying to use different columns with *numeric* values in a mathematical formula but seeing an error, check the column types for each of the columns used in the formula. All need to be of type [Numeric](col-types.md#numeric-columns).
 
-<span class="screenshot-large">*![column-type-numeric](images/formula-cheat-sheet/column-type-numeric.png)*</span>
+<span class="screenshot-large">*![column-type-numeric](../images/formula-cheat-sheet/column-type-numeric.png)*</span>
 {: .screenshot-half }
 
 [float()](https://docs.python.org/3/library/functions.html#float){:target="\_blank"} is only needed when dealing with alpha-numeric values like we see in the [example](#example-converting-a-string-to-a-float).
 
 **TypeError: can't multiply sequence by non-int of type 'float'**
-<span class="screenshot-large">*![multiply-non-int-float-type-error](images/formula-cheat-sheet/multiply-non-int-float-type-error.png)*</span>
+<span class="screenshot-large">*![multiply-non-int-float-type-error](../images/formula-cheat-sheet/multiply-non-int-float-type-error.png)*</span>
 This error occurs when a formula attempts to **multiply** values from multiple columns, at least one of which is not a [Numeric](col-types.md#numeric-columns) type column. In the screenshot below, the Tax column is a [Text](col-types.md#text-columns) column. 
-<span class="screenshot-large">*![multiply-non-int-error-tax-text](images/formula-cheat-sheet/multiply-non-int-error-tax-text.png)*</span>
+<span class="screenshot-large">*![multiply-non-int-error-tax-text](../images/formula-cheat-sheet/multiply-non-int-error-tax-text.png)*</span>
 When we change the column type to [Numeric](col-types.md#numeric-columns), the error is resolved.
-<span class="screenshot-large">*![multiply-non-int-error-tax-numeric](images/formula-cheat-sheet/multiply-non-int-error-tax-numeric.png)*</span>
+<span class="screenshot-large">*![multiply-non-int-error-tax-numeric](../images/formula-cheat-sheet/multiply-non-int-error-tax-numeric.png)*</span>
 
 **TypeError: unsupported operand type(s) for /: 'float' and 'str'**
-<span class="screenshot-large">*![division-float-string-error](images/formula-cheat-sheet/division-float-string-error.png)*</span>
+<span class="screenshot-large">*![division-float-string-error](../images/formula-cheat-sheet/division-float-string-error.png)*</span>
 This error occurs when a formula attempts to **divide** values from multiple columns, at least one of which is not a [Numeric](col-types.md#numeric-columns) type column. In the example seen above, the '# of Payments' column is a [Choice](col-types.md#choice-columns) column. 
 
 When we change the column type to [Numeric](col-types.md#numeric-columns), the error is resolved.
 
 **TypeError: unsupported operand type(s) for +: 'float' and 'str'**
-<span class="screenshot-large">*![addition-float-string-error](images/formula-cheat-sheet/addition-float-string-error.png)*</span>
+<span class="screenshot-large">*![addition-float-string-error](../images/formula-cheat-sheet/addition-float-string-error.png)*</span>
 This error occurs when a formula attempts to **add** values from multiple columns, at least one of which is not a [Numeric](col-types.md#numeric-columns) type column. In the example seen above, the Tax column is a [Text](col-types.md#text-columns) column. 
 
 When we change the column type to [Numeric](col-types.md#numeric-columns), the error is resolved.
 
 **TypeError: unsupported operand type(s) for -: 'float' and 'str'**
-<span class="screenshot-large">*![subtraction-float-string-error](images/formula-cheat-sheet/subtraction-float-string-error.png)*</span>
+<span class="screenshot-large">*![subtraction-float-string-error](../images/formula-cheat-sheet/subtraction-float-string-error.png)*</span>
 This error occurs when a formula attempts to **subtract** values from multiple columns, at least one of which is not a [Numeric](col-types.md#numeric-columns) type column. In the example seen above, the Discount column is a [Text](col-types.md#text-columns) column. 
 
 When we change the column type to [Numeric](col-types.md#numeric-columns), the error is resolved.
@@ -311,7 +311,7 @@ Specify the number of decimal places to give in a result using the [ROUND()](fun
 </summary>
 **[Payroll](https://templates.getgrist.com/5pHLanQNThxk/Payroll/p/2){:target="\_blank"} template**
 
-<span class="screenshot-large">*![round-payment](images/formula-cheat-sheet/round-payment.png)*</span>
+<span class="screenshot-large">*![round-payment](../images/formula-cheat-sheet/round-payment.png)*</span>
 
 The formula used in the Payment column is:
 ```
@@ -321,7 +321,7 @@ The [ROUND()](functions.md#round) function follows the format `ROUND(value, plac
 
 **[Mixing Products](https://public.getgrist.com/v4vj2PDZS4jf/Community-665/m/fork){:target="\_blank"}**
 
-<span class="screenshot-large">*![round](images/formula-cheat-sheet/round.png)*</span>
+<span class="screenshot-large">*![round](../images/formula-cheat-sheet/round.png)*</span>
 
 The formula used in the Rounded Value column is:
 ```
@@ -360,7 +360,7 @@ Allows you to specify the minimum number of digits returned in a numerical colum
 
 **Community Example: [Using Row ID](https://public.getgrist.com/p4zvsX9asVCc/2179-Using-id/p/1){:target="\_blank"}**
 
-<span class="screenshot-large">*![min-digits](images/formula-cheat-sheet/min-digits.png)*</span>
+<span class="screenshot-large">*![min-digits](../images/formula-cheat-sheet/min-digits.png)*</span>
 
 The formula used in the 5-digit ID column of the ID Examples table is:
 ```
@@ -371,7 +371,7 @@ The formula used in the 5-digit ID column of the ID Examples table is:
 
 We can do the same thing using the [`str.zfill()`](https://docs.python.org/3/library/stdtypes.html#str.zfill){:target="\_blank"} method.
 
-<span class="screenshot-large">*![min-digits-zfill](images/formula-cheat-sheet/min-digits-zfill.png)*</span>
+<span class="screenshot-large">*![min-digits-zfill](../images/formula-cheat-sheet/min-digits-zfill.png)*</span>
 
 The formula used in the zfill Method column of the ID Examples table is:
 ```
@@ -389,7 +389,7 @@ str($id).zfill(5)
 If you mean to combine a string and a numerical value, be sure to convert it to string using `str()`.
 
 
-<span class="screenshot-large">*![string-type-error](images/formula-cheat-sheet/string-type-error.png)*</span>
+<span class="screenshot-large">*![string-type-error](../images/formula-cheat-sheet/string-type-error.png)*</span>
 {: .screenshot-half }
 
 </details>
@@ -411,7 +411,7 @@ Note: You can click on columns to insert them into your formulas, rather than ty
 </summary>
 **[Class Enrollment](https://templates.getgrist.com/doc/afterschool-program) template{:target="\_blank"}**
 
-<span class="screenshot-large">*![combining-text-students](images/formula-cheat-sheet/combining-text-students.png)*</span>
+<span class="screenshot-large">*![combining-text-students](../images/formula-cheat-sheet/combining-text-students.png)*</span>
 
 The formula used in the Full Name column of the Students table is:
 ```
@@ -423,7 +423,7 @@ An alternative combination of these columns for Full Name could be `$First_Name 
 
 **[Inventory Manager](https://templates.getgrist.com/sXsBGDTKau1F/Inventory-Manager){:target="\_blank"} template**
 
-<span class="screenshot-large">*![combining-text-sku](images/formula-cheat-sheet/combining-text-sku.png)*</span>
+<span class="screenshot-large">*![combining-text-sku](../images/formula-cheat-sheet/combining-text-sku.png)*</span>
 
 The formula used in the SKU column of the All Products table is:
 ```
@@ -441,7 +441,7 @@ Each of the values found in `$Brand.Brand_Code` and `$Color.Code`are combined wi
 </summary>
 **[Tracking Time + Invoicing](https://templates.getgrist.com/bReAxyLmzmEQ/Tracking-Time-Invoicing){:target="\_blank"} template**
 
-<span class="screenshot-large">*![combining-text-project-name](images/formula-cheat-sheet/combining-text-project-name.png)*</span>
+<span class="screenshot-large">*![combining-text-project-name](../images/formula-cheat-sheet/combining-text-project-name.png)*</span>
 
 The formula used in the Project Name column of the Projects table is:
 ```
@@ -457,14 +457,14 @@ The second set of curly brackets are replaced with the value found in the Name c
 
 Although the Client column shows the value that we want, we can't use `$Client` like we did `$Name`. This is because the Client column is a reference column. It is referencing the <em>entire</em> record but uses the value from the Name column of the Clients table as a visual representation of that record. Under the column configuration panel on the right hand side, we can change what column value we see for the record. In the screenshot below, 'Show Column' was changed from Name to Email.
 
-<span class="screenshot-large">*![reference-client-email](images/formula-cheat-sheet/reference-client-email.png)*</span>
+<span class="screenshot-large">*![reference-client-email](../images/formula-cheat-sheet/reference-client-email.png)*</span>
 {: .screenshot-half }
 
 It doesn't change the data, it just changes the label on that data in the Client column. It's still pointing to the same record but now shows a different label. `$Client.Name` pulls the Name for the record that is referenced in the Client column, regardless of the label we see.
 
 **[Custom Product Builder](https://templates.getgrist.com/gZmzYoGdS6b1/Custom-Product-Builder){:target="\_blank"} template**
 
-<span class="screenshot-large">*![combining-text-components](images/formula-cheat-sheet/combining-text-components.png)*</span>
+<span class="screenshot-large">*![combining-text-components](../images/formula-cheat-sheet/combining-text-components.png)*</span>
 
 The formula used in the All Components column of the CONTRACT_BUILDER Card is:
 ```
@@ -487,11 +487,11 @@ This leaves us with the following:
 ```
 We'll work through this backwards. First, we need to take a look at the Components column which is a [hidden column](page-widgets.md#configuring-field-lists) in the All Contracts table. 
 
-<span class="screenshot-large">*![combining-text-components-hidden](images/formula-cheat-sheet/combining-text-components-hidden.png)*</span>
+<span class="screenshot-large">*![combining-text-components-hidden](../images/formula-cheat-sheet/combining-text-components-hidden.png)*</span>
 
 This column is a list of components and their associated quantities for the contract. In the `for` loop, we assign each item in the list of components two variables, comp and quantity. For `Components[3]: 6.0`, comp = `Components[3]` and quantity = `6.0`. `Components[#]` specifies a Component in the Components table by Row ID. `Components[3]` is the component assigned `3` as it's row id.
 
-<span class="screenshot-large">*![components-row-id](images/formula-cheat-sheet/components-row-id.png)*</span>
+<span class="screenshot-large">*![components-row-id](../images/formula-cheat-sheet/components-row-id.png)*</span>
 {: .screenshot-half }
 
 Now, we run each item from the list above through the equation `"{} — {:g} {}".format(comp.Component, quantity, comp.Unit)`.
@@ -506,7 +506,7 @@ Now, we run each item from the list above through the equation `"{} — {:g} {}"
 
 **[Email Contacts](https://templates.getgrist.com/3HfynRQwpHPy/Email-Contacts){:target="\_blank"} template**
 
-<span class="screenshot-large">*![combining-text-email](images/formula-cheat-sheet/combining-text-email.png)*</span>
+<span class="screenshot-large">*![combining-text-email](../images/formula-cheat-sheet/combining-text-email.png)*</span>
 
 The formula used in the Body column of the Advanced Compose table is:
 ```
@@ -531,7 +531,7 @@ Split a string using Python's [split()](https://docs.python.org/3/library/stdtyp
 
 **Community Example: [Colors](https://public.getgrist.com/2tv3e8qxpNFP/Community-715/p/2){:target="\_blank"}**
 
-<span class="screenshot-large">*![split-hyperlink](images/formula-cheat-sheet/split-hyperlink.png)*</span>
+<span class="screenshot-large">*![split-hyperlink](../images/formula-cheat-sheet/split-hyperlink.png)*</span>
 
 The formula in the "Color Reference (Just URL)" column of Table 2 is:
 ```
@@ -562,7 +562,7 @@ If you store contacts in Grist, and use Gmail to email them, you can create a fo
 </summary>
 Is your URL still showing after you added a label? Make sure your Column Type is Text and Cell Format is Hyperlink.
 
-<span class="screenshot-large">*![text-hyperlink](images/formula-cheat-sheet/text-hyperlink.png)*</span>
+<span class="screenshot-large">*![text-hyperlink](../images/formula-cheat-sheet/text-hyperlink.png)*</span>
 
 </details>
 </section>
@@ -578,7 +578,7 @@ When you want to join a list of strings, you can use Python's [join() method](ht
 </summary>
 **Community Example: [.join() Example](https://public.getgrist.com/2L3J99j7zW23/join-Example/m/fork){:target="\_blank"}**
 
-<span class="screenshot-large">*![join-list-values-example](images/formula-cheat-sheet/join-list-values-example.png)*</span>
+<span class="screenshot-large">*![join-list-values-example](../images/formula-cheat-sheet/join-list-values-example.png)*</span>
 
 The formula used in the Advertisement column of the 2022 Grand Openings table is:
 ```
@@ -610,7 +610,7 @@ You can find duplicates in a column using either conditional formatting or a hel
 </summary>
 **Community Example: [Finding Duplicates](https://public.getgrist.com/3CJkcpF7wu9Q/-1790/p/4){:target="\_blank"}**
 
-<span class="screenshot-large">*![duplicates-single-column](images/formula-cheat-sheet/duplicates-single-column.png)*</span>
+<span class="screenshot-large">*![duplicates-single-column](../images/formula-cheat-sheet/duplicates-single-column.png)*</span>
 
 The formula used in the Duplicate? column of the Duplicates table is:
 ```
@@ -635,7 +635,7 @@ if `len() > 1`, the formula is true. If `len() <= 1`, the formula is false.
 
 This same formula can be used in conditional formatting. This can be seen in the 'Grocery List' column of the Duplicates table.
 
-<span class="screenshot-large">*![duplicates-single-conditional-formatting](images/formula-cheat-sheet/duplicates-single-conditional-formatting.png)*</span>
+<span class="screenshot-large">*![duplicates-single-conditional-formatting](../images/formula-cheat-sheet/duplicates-single-conditional-formatting.png)*</span>
 
 If `len() > 1`, our formula is true and the conditional cell color is applied to these cells. 
 
@@ -655,12 +655,12 @@ When a record is created, it is assigned a numeric id (available as `$id` in for
 </summary>
 You can reveal the ID with the formula `$id`
 
-<span class="screenshot-large">*![row-id](images/formula-cheat-sheet/row-id.png)*</span>
+<span class="screenshot-large">*![row-id](../images/formula-cheat-sheet/row-id.png)*</span>
 {: .screenshot-half }
 
 **[Custom Product Builder](https://templates.getgrist.com/gZmzYoGdS6b1/Custom-Product-Builder){:target="\_blank"} template**
 
-<span class="screenshot-large">*![row-id-trigger](images/formula-cheat-sheet/row-id-trigger.png)*</span>
+<span class="screenshot-large">*![row-id-trigger](../images/formula-cheat-sheet/row-id-trigger.png)*</span>
 
 The formula used in the Contract No. column of the Contract Builder table is:
 ```
@@ -670,7 +670,7 @@ Here, we are using a trigger formula to create a unique Contract Number when a r
 
 **[Class Enrollment](https://templates.getgrist.com/doc/afterschool-program){:target="\_blank"} template**
 
-<span class="screenshot-large">*![id-reverse-lookup](images/formula-cheat-sheet/id-reverse-lookup.png)*</span>
+<span class="screenshot-large">*![id-reverse-lookup](../images/formula-cheat-sheet/id-reverse-lookup.png)*</span>
 
 The formula used in the Count column of the Classes table is:
 ```
@@ -682,17 +682,17 @@ Here, we are looking up records from the Enrollments table where the record call
 
 The table we are looking up records in is the Enrollments table. Our criteria comes from the Class column and the Status column.The criteria for Status is straightforward; the value must be `Confirmed` in order to be included in our list of records. Class is a bit more complicated. As we see in the screenshot below, Class is a reference column that pulls data from the Classes table. Here, the Class column shows `2018F-Stars`.
 
-<span class="screenshot-large">*![id-reference-class-code](images/formula-cheat-sheet/id-reference-class-code.png)*</span>
+<span class="screenshot-large">*![id-reference-class-code](../images/formula-cheat-sheet/id-reference-class-code.png)*</span>
 
 A reference column points to the <em>entire</em> record, not just the value you see here in the Class column. Using the configuration panel on the right hand side of the screen, you can pick any column from the originating table to show. For this example, the Class column shows the value from the Class Code column of the Classes table but it points to the entire record where the class code is `2018F-Stars`. 
 
-<span class="screenshot-large">*![id-class-id](images/formula-cheat-sheet/id-class-id.png)*</span>
+<span class="screenshot-large">*![id-class-id](../images/formula-cheat-sheet/id-class-id.png)*</span>
 
 As you can see in this screenshot, the Row ID for this particular record is `2` and because we are calculating the Count for the row with `Row ID = 2`, it will count all records in the Enrollment table where Class shows `2018F-Stars` and Status is `Confirmed`. 
 
 **[Restaurant Custom Orders](https://templates.getgrist.com/e4gEm7dt4cgB/Restaurant-Custom-Orders){:target="\_blank"} template**
 
-<span class="screenshot-large">*![inequality-restaurant-bom](images/formula-cheat-sheet/inequality-restaurant-bom.png)*</span>
+<span class="screenshot-large">*![inequality-restaurant-bom](../images/formula-cheat-sheet/inequality-restaurant-bom.png)*</span>
 
 The trigger formula used in the BOM # column of the Bill of Materials table is:
 ```
@@ -721,7 +721,7 @@ You can remove duplicates from a list with help from Python's [set()](https://do
 
 **Community Example: [Removing Duplicates From a List](https://public.getgrist.com/3pZUMdP2bJx6/1957/p/3){:target="\_blank"}**
 
-<span class="screenshot-large">*![removing-duplicates](images/formula-cheat-sheet/removing-duplicates.png)*</span>
+<span class="screenshot-large">*![removing-duplicates](../images/formula-cheat-sheet/removing-duplicates.png)*</span>
 
 The formula in the All Divisions column of the Abroad Trips table is:
 ```
@@ -748,7 +748,7 @@ sorted(
 )
 ```
 
-<span class="screenshot-large">*![removing-duplicates-simplified](images/formula-cheat-sheet/removing-duplicates-simplified.png)*</span>
+<span class="screenshot-large">*![removing-duplicates-simplified](../images/formula-cheat-sheet/removing-duplicates-simplified.png)*</span>
 
 </details>
 </section>
@@ -775,7 +775,7 @@ You can automatically add the date or time a record was created or updated as we
 </summary>
 **[Grant Application Tracker](https://templates.getgrist.com/sC5CAW41bVZU/Grant-Application-Tracker){:target="\_blank"} template**
 
-<span class="screenshot-large">*![date-time-trigger-formula](images/formula-cheat-sheet/date-time-trigger-formula.png)*</span>
+<span class="screenshot-large">*![date-time-trigger-formula](../images/formula-cheat-sheet/date-time-trigger-formula.png)*</span>
 
 The formula used in the Last Updated column of the Tasks table is:
 ```
@@ -783,7 +783,7 @@ NOW()
 ```
 This is a [trigger formula](formulas.md#trigger-formulas) that triggers when a change is made to any field for this record. When a change is made, this formula runs its calculation. `NOW()` calculates the current time and date for the [time zone](dates.md#time-zones) selected. 
 
-<span class="screenshot-large">*![created-by-trigger](images/formula-cheat-sheet/created-by-trigger.png)*</span>
+<span class="screenshot-large">*![created-by-trigger](../images/formula-cheat-sheet/created-by-trigger.png)*</span>
 
 The formula used in the Created By column of the Tasks table is:
 ```
@@ -798,7 +798,7 @@ This is a [trigger formula](formulas.md#trigger-formulas) that triggers when a n
 </summary>
 If the time value in your datetime column is not calculating, check your formula. If `TODAY()` is used in DateTime, the time will always show 12:00am as you see below. `NOW()` is used for DateTime columns. `TODAY()` is used for Date.
 
-<span class="screenshot-large">*![today-vs-now-error](images/formula-cheat-sheet/today-vs-now-error.png)*</span>
+<span class="screenshot-large">*![today-vs-now-error](../images/formula-cheat-sheet/today-vs-now-error.png)*</span>
 
 <span></span><div class="deflist">
 
@@ -827,7 +827,7 @@ Using the [`DATEADD()`](functions.md#dateadd) function and [comparision operator
 
 **Community Example:** [Filtering Data Within a 1-Month Range](https://public.getgrist.com/4zxVeFtGNt7n/1844){:target="\_blank"}
 
-<span class="screenshot-large">*![1-month-range](images/formula-cheat-sheet/1-month-range.png)*</span>
+<span class="screenshot-large">*![1-month-range](../images/formula-cheat-sheet/1-month-range.png)*</span>
 The formula used in the Falls in 1 Month Range? column of the Interactions table is:
 ```
 TODAY() >= $Date >=  DATEADD(TODAY(),months=-1)
@@ -842,7 +842,7 @@ This formula is true if the date value in the Date column falls between `TODAY()
 
 We can use this column to filter our data. If we only want to see interactions that fall within the 1 Month Range, we would filter to only include `true` values. If we want to see interactions that fall outside of the 1 Month Range, we would filter to only include `false` values.
 
-<span class="screenshot-large">*![add-filter](images/formula-cheat-sheet/add-filter.png)*</span>
+<span class="screenshot-large">*![add-filter](../images/formula-cheat-sheet/add-filter.png)*</span>
 
 </details>
 
@@ -854,7 +854,7 @@ We can use this column to filter our data. If we only want to see interactions t
 
 - `#TypeError`:
 
-    <span class="screenshot-large">*![1-month-range-type-error](images/formula-cheat-sheet/1-month-range-type-error.png)*</span>
+    <span class="screenshot-large">*![1-month-range-type-error](../images/formula-cheat-sheet/1-month-range-type-error.png)*</span>
 
     Because `$Date` is a [Date](col-types.md#date-columns) type column, `TODAY()` must be used in formulas comparing dates. [`NOW()`](functions.md#now) is a DateTime formula that should only be used with other DateTime values. For example, if the `$Date` column was a [DateTime](col-types.md#datetime-columns) type column, `NOW()` would need to be used rather than `TODAY()` because it includes the time component.
 

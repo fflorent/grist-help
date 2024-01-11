@@ -2,7 +2,7 @@
 
 The **Table** widget is a versatile spreadsheet-like grid.
 
-  ![widget_table_basic](images/widget_table_basic.png)
+  ![widget_table_basic](../images/widget_table_basic.png)
 
 Here are some useful features to know.
 
@@ -22,7 +22,7 @@ Here are some useful features to know.
   existing column, as do the keyboard shortcuts <code class="keys">*Alt* + **+**</code>
   (insert before) and <code class="keys">*Alt* + **=**</code> (insert after).
 
-    *![column_add](images/column_add.png)*
+    *![column_add](../images/column_add.png)*
     {: .screenshot-half }
 
     After adding a column, the column name (set by default to "A", "B", "C", etc.) is immediately
@@ -34,7 +34,7 @@ Here are some useful features to know.
   shown again using the "+" icon on the right of the column headers, or the field list in the widget
   options panel.
 
-  *![column_menu_hide](images/column_menu_hide.png)*
+  *![column_menu_hide](../images/column_menu_hide.png)*
   {: .screenshot-half }
 
 - **Delete columns**: Delete the actual column of data using the column menu option, or the
@@ -56,7 +56,7 @@ Here are some useful features to know.
   <code class="keys">*⌘* **=**</code> (Mac) or <code class="keys">*Ctrl* + **=**</code> (Windows)
   to insert after.
 
-  *![row_menu](images/row_menu.png)*
+  *![row_menu](../images/row_menu.png)*
   {: .screenshot-half }
 
 - **Delete rows**: Right click a row number and select the "Delete" option to delete a row, or use the
@@ -69,7 +69,7 @@ Here are some useful features to know.
   email or an instant messaging app. The link will open only for people with access to the
   document.
 
-  *![copy anchor link](images/row_menu_link.png)*
+  *![copy anchor link](../images/row_menu_link.png)*
   {: .screenshot-half }
 
 ### Navigation and selection
@@ -108,8 +108,8 @@ Here are some useful features to know.
 - **Customize table looks**: In the widget options panel, you can turn off horizontal or vertical
   grid lines, or turn on zebra striping.
 
-  *![widget_tab_table_options](images/widget_tab_table_options.png)*
+  *![widget_tab_table_options](../images/widget_tab_table_options.png)*
   {: .screenshot-half }
 
   For example, this lets you change the look of your grid to a list like this:
-  ![widget_table_zebra](images/widget_table_zebra.png)
+  ![widget_table_zebra](../images/widget_table_zebra.png)

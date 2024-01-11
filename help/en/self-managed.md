@@ -630,13 +630,13 @@ The banner is shown only to the owner of the installation.
 The owner of the installation is the user whose email address
 matches the `GRIST_DEFAULT_EMAIL` environment variable (if set).
 
-<span class="screenshot-large">*![Self-hosted Telemetry](images/newsletters/2023-07/core-telemetry-opt-in.png)*</span>
+<span class="screenshot-large">*![Self-hosted Telemetry](../images/newsletters/2023-07/core-telemetry-opt-in.png)*</span>
 {: .screenshot-half }
 
 You can control telemetry at any time using the "Support Grist"
 page, if you are the owner of the installation.
 
-<span class="screenshot-large">*![Control Telemetry](images/support-page-link.png)*</span>
+<span class="screenshot-large">*![Control Telemetry](../images/support-page-link.png)*</span>
 {: .screenshot-half }
 
 Rather than using buttons to opt in to telemetry,

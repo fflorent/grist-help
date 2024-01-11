@@ -15,7 +15,7 @@ of each record as they are added.  As a first step, add a column called
 (see [Columns](col-types.md) for a refresher), click
 `Set trigger formula` action.
 
-![starting a Created-By column](images/formulas/formulas-created-by-convert.png)
+![starting a Created-By column](../images/formulas/formulas-created-by-convert.png)
 
 Set `user.Name`{: .formula} as the column's formula.  There are other possibilities,
 such as  `user.Email`{: .formula}, a unique `user.UserID`{: .formula}, and so on.  The
@@ -23,13 +23,13 @@ user information available is the same as that in [Access rule conditions](acces
 Time information is available as well (see [Timestamp columns](timestamps.md)).
 But let's stick with `user.Name`{: .formula} for now.
 
-![a Created-By column](images/formulas/formulas-created-by-final.png)
+![a Created-By column](../images/formulas/formulas-created-by-final.png)
 
 Now, to set the column whenever a record is created, make sure that `Apply to new records`
 option is checked. And that's it!  Now whenever a record is created, the `Created At`
 column will be set to the name of the user creating it:
 
-![a Created-By example](images/formulas/formulas-created-by-autofill.png)
+![a Created-By example](../images/formulas/formulas-created-by-autofill.png)
 
 
 ## An "Updated By" column
@@ -41,12 +41,12 @@ select `Apply on record changes`.  Then select `Any field` (assuming you want an
 change in a record to count as an update) and press `OK`.  You can alternatively
 pick and choose which columns, when updated, will trigger the formula.
 
-![an Updated-By column](images/formulas/formulas-updated-by-setup.png)
+![an Updated-By column](../images/formulas/formulas-updated-by-setup.png)
 
 Here is an example the the new column at work - when `Cotton Candy v Candy Floss`
 is updated,a user name appears for that record:
 
-![an Updated-By column](images/formulas/formulas-updated-by-autofill.png)
+![an Updated-By column](../images/formulas/formulas-updated-by-autofill.png)
 
 !!! note "It is still possible for a user to manually edit cells in the `Created By` and `Updated By` columns. If you don't want that to be allowed, use [access rules](access-rules.md) to forbid it."
 

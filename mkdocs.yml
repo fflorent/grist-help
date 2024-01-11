@@ -14,6 +14,7 @@ docs_dir: './help'
 theme:
   name: windmill
   custom_dir: overrides
+  language: en
 nav:
   - Welcome to Grist: index.md
   - FAQ: FAQ.md
@@ -180,13 +181,23 @@ extra:
       text: 'Back to Grist'
       hide_on_small_screen: true
   google_tag_manager: 'GTM-5FDHKQ9'
+  alternate:
+  - name: English
+    link: /en/
+    lang: en
+  - name: French
+    link: /fr/
+    lang: fr
 extra_css:
   - css/grist.css
 extra_javascript:
   - js/grist.js
 
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - fr
   - awesome-pages
   - htmlproofer:
       enabled: !ENV [HTMLPROOFER_ENABLED, false]

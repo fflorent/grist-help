@@ -9,7 +9,7 @@ At the top of the document screen, you'll see a magnifying glass icon
 (<span class="grist-icon" style="--icon: var(--icon-Search)"></span>)
 which opens a spreadsheet-like search.
 
-<span class="screenshot-large">*![Search Textbox](images/search-sort-filter/search-box.png)*</span>
+<span class="screenshot-large">*![Search Textbox](../images/search-sort-filter/search-box.png)*</span>
 {: .screenshot-half }
 
 
@@ -28,7 +28,7 @@ spreadsheet.
 
 To sort a table in Grist by a column, open the menu from the column's header and select "Sort":
 
-<span class="screenshot-large">*![Column Menu Sort](images/search-sort-filter/column-menu-sort.png)*</span>
+<span class="screenshot-large">*![Column Menu Sort](../images/search-sort-filter/column-menu-sort.png)*</span>
 {: .screenshot-half }
 
 In the same menu item, you can choose to sort in ascending or descending order.
@@ -44,7 +44,7 @@ that's used for sorting, the record will jump into its correct position in the s
 ### Multiple Columns
 When a table is sorted, you can click another column to add it to the sort:
 
-<span class="screenshot-large">*![Add to Sort](images/search-sort-filter/column-menu-add-sort.png)*</span>
+<span class="screenshot-large">*![Add to Sort](../images/search-sort-filter/column-menu-add-sort.png)*</span>
 {: .screenshot-half }
 
 The second column determines the order of records whose values in the first column are the same.
@@ -64,7 +64,7 @@ When you change sorting on a table, the icon on top of it gets highlighted in gr
 see the currently active setting, as well as the options to manipulate them (e.g. remove a column
 from the sort), to save the setting, or to revert your changes:
 
-<span class="screenshot-large">*![Widget Menu](images/search-sort-filter/widget-menu-sort.png)*</span>
+<span class="screenshot-large">*![Widget Menu](../images/search-sort-filter/widget-menu-sort.png)*</span>
 {: .screenshot-half }
 
 When you save sort settings, they will apply to the widget any time this page is opened, either by
@@ -79,7 +79,7 @@ transactions sorted by date, and another showing them sorted by amount.
 You can sort widgets other than Table, such as Card List or Chart, using the "Sort & Filter"
 subtab in the side panel:
 
-<span class="screenshot-large">*![Side Panel Sort](images/search-sort-filter/side-panel-sort.png)*</span>
+<span class="screenshot-large">*![Side Panel Sort](../images/search-sort-filter/side-panel-sort.png)*</span>
 {: .screenshot-half }
 
 You can add one or more columns, save or revert settings and use advanced
@@ -97,7 +97,7 @@ this option to put them at the end.
 a single character, allowing more human-friendly ordering. For example, using
 `natural sort`, _Product10_ will be positioned after _Product2_.
 
-<span class="screenshot-large">*![Side Panel Sorting Options](images/search-sort-filter/side-panel-sorting-options.png)*</span>
+<span class="screenshot-large">*![Side Panel Sorting Options](../images/search-sort-filter/side-panel-sorting-options.png)*</span>
 {: .screenshot-half }
 
 
@@ -118,7 +118,7 @@ You can choose to see only a subset of data in a table by filtering for certain 
 column. Open the column menu from any column's header, and click "Filter Data". You'll see a
 dialog listing the values in the column:
 
-<span class="screenshot-large">*![Filter Menu](images/search-sort-filter/filter-menu.png)*</span>
+<span class="screenshot-large">*![Filter Menu](../images/search-sort-filter/filter-menu.png)*</span>
 {: .screenshot-half }
 
 Uncheck the values you don't want to see, or click "None" and then check only the values
@@ -133,7 +133,7 @@ filters.
 As with sorting, you can save filters to the view. Click the highlighted "Sort & Filter" icon on
 top of the table:
 
-<span class="screenshot-large">*![Widget Menu](images/search-sort-filter/widget-menu-filter.png)*</span>
+<span class="screenshot-large">*![Widget Menu](../images/search-sort-filter/widget-menu-filter.png)*</span>
 {: .screenshot-half }
 
 You'll see the columns for which there are active filters, and options to save the filter, or to
@@ -149,40 +149,40 @@ Certain column types allow for filtering within a range of values.
 
 When filtering a numeric or integer type column, you have the option to filter within a range of numbers. For example, if you only want to see high-value purchases in a [table of credit card transactions](https://templates.getgrist.com/2i9WoHs2oRzK/Credit-Card-Activity-Template-AmEx/p/1), you could add a filter for the amount column and enter a minimum value of $500. The table would be filtered to show any transactions with an amount of $500 or greater.
 
-<span class="screenshot-large">*![range-filtering-numeric](images/search-sort-filter/range-filtering-numeric.png)*</span>
+<span class="screenshot-large">*![range-filtering-numeric](../images/search-sort-filter/range-filtering-numeric.png)*</span>
 {: .screenshot-half }
 
 When filtering a date or datetime type column, you have the option to filter within a specified date range. The range can be entered into the "Start" and "End" fields, or selected on a calendar.
 
 Perhaps you went on vacation and want to see all transactions during that time. We could add a filter to the Date column to see all transactions within the date range of the trip.
 
-<span class="screenshot-large">*![range-filtering-date](images/search-sort-filter/range-filtering-date.png)*</span>
+<span class="screenshot-large">*![range-filtering-date](../images/search-sort-filter/range-filtering-date.png)*</span>
 {: .screenshot-half }
 
 You can also filter date and datetime type columns by a relative range, which is a range relative to today's date. For example, you might want to filter for tasks due in the next 14 days. That filter would update each day so that it is always filtering by 14 days into the future, relative to today's date. 
 
 When filtering a date or datetime column, there are several relative ranges suggested as a shortcut, as seen in the image below.
 
-<span class="screenshot-large">*![range-filtering-date-dynamic](images/search-sort-filter/range-filtering-date-dynamic.png)*</span>
+<span class="screenshot-large">*![range-filtering-date-dynamic](../images/search-sort-filter/range-filtering-date-dynamic.png)*</span>
 {: .screenshot-half }
 
 If you use the calendar to select a range of dates, you can also convert each absolute date into a relative date by selecting from the list of relative dates available.
 
-<span class="screenshot-large">*![range-filtering-relative-date](images/search-sort-filter/range-filtering-relative-date.png)*</span>
+<span class="screenshot-large">*![range-filtering-relative-date](../images/search-sort-filter/range-filtering-relative-date.png)*</span>
 {: .screenshot-half }
 
 ### Pinning Filters
 
 Filters can be pinned at the top of a table for quick filtering. By default, filters will be pinned when first applied to a table. To unpin a filter, click the filter button then click the pin icon. If you unpin a filter button, any saved filters will still be applied but the button will no longer be visible.
 
-<span class="screenshot-large">*![pinning-filters](images/search-sort-filter/pinning-filters.png)*</span>
+<span class="screenshot-large">*![pinning-filters](../images/search-sort-filter/pinning-filters.png)*</span>
 {: .screenshot-half } 
 
 It may be useful to save the buttons without any filtering to create a quick filter toolbar.
 
 If you do save settings with filters applied, that saves it for future sessions and other team members will see the same thing.
 
-<span class="screenshot-large">*![Filter Button Filter Selection](images/search-sort-filter/filter-button-filter-selection.png)*</span>
+<span class="screenshot-large">*![Filter Button Filter Selection](../images/search-sort-filter/filter-button-filter-selection.png)*</span>
 {: .screenshot-half } 
 
 ### Complex Filters
