@@ -9,37 +9,37 @@ Every Grist table, when first created, has three columns called A, B, and C.
 To rename a column, hover on the column header, click on the drop-down, then
 select "Rename column" (you can also just click on the column header twice).
 
-<span class="screenshot-large">*![columns-rename-column](images/columns/columns-rename-column.png)*</span>
+<span class="screenshot-large">*![columns-rename-column](../images/columns/columns-rename-column.png)*</span>
 {: .screenshot-half }
 
 To delete a column, hover on the column header, click on the drop-down, then
 select "Delete column".
 
-<span class="screenshot-large">*![columns-delete-column](images/columns/columns-delete-column.png)*</span>
+<span class="screenshot-large">*![columns-delete-column](../images/columns/columns-delete-column.png)*</span>
 {: .screenshot-half }
 
 To add a column, click on the "+" symbol in the header row to open the "Add Column" menu.
 
-![Add column](images/columns/columns-add-column.png)
+![Add column](../images/columns/columns-add-column.png)
 
 The first option in the menu, "+ Add Column", will add a new, empty data column to your table.
 
-*![Add new column](images/columns/columns-add-new-column.png)*
+*![Add new column](../images/columns/columns-add-new-column.png)*
 {: .screenshot-half }
 
 "Hidden Columns" expands to show a list of columns hidden from this view that can be quickly added back.
 
-*![Add hidden column](images/columns/columns-add-hidden-column.png)*
+*![Add hidden column](../images/columns/columns-add-hidden-column.png)*
 {: .screenshot-half }
 
 "Lookups" allows you to add data columns from related tables. You can use reference columns to relate data in different tables. Learn more about [References and Lookups](references-lookups.md).
 
-*![Add lookup column](images/columns/columns-add-lookup.png)*
+*![Add lookup column](../images/columns/columns-add-lookup.png)*
 {: .screenshot-half }
 
 "Shortcuts" lists the most frequently used [trigger formula](formulas.md#trigger-formulas) functions.
 
-*![Add shortcut column](images/columns/columns-add-shortcut.png)*
+*![Add shortcut column](../images/columns/columns-add-shortcut.png)*
 {: .screenshot-half }
 
 Learn more about each shortcut option at the links below:
@@ -61,13 +61,13 @@ location.
 
 Another way to reorder columns is via the widget options:
 
-<span class="screenshot-large">*![columns-widget-options](images/columns/columns-widget-options.png)*</span>
+<span class="screenshot-large">*![columns-widget-options](../images/columns/columns-widget-options.png)*</span>
 {: .screenshot-half }
 
 In the visible columns section, the columns can be dragged around freely to
 reorder them.  You can also hide columns here.
 
-*![Visible columns](images/columns/columns-visible-columns.png)*
+*![Visible columns](../images/columns/columns-visible-columns.png)*
 {: .screenshot-half }
 
 ## Renaming columns
@@ -75,19 +75,19 @@ reorder them.  You can also hide columns here.
 You can rename columns in several ways.  One way is to
 double click a column header. Then, you can rename the column or add a column description.
 
-*![rename columns](images/columns/columns-rename-header.png)*
+*![rename columns](../images/columns/columns-rename-header.png)*
 {: .screenshot-half }
 
 You can also hover on the column header, click on the drop-down, then select "Rename Column". This opens the same
 pop up seen above.
 
-*![rename columns](images/columns/columns-rename-renamecolumn.png)*
+*![rename columns](../images/columns/columns-rename-renamecolumn.png)*
 {: .screenshot-half }
 
 Selecting "Column Options" in the same drop-down opens the creator panel. From here, you can edit the
 Column Label, shown at the top or add a description.
 
-*![rename columns](images/columns/columns-rename-creatorpanel.png)*
+*![rename columns](../images/columns/columns-rename-creatorpanel.png)*
 {: .screenshot-half }
 
 A bonus with this method is that you can also control
@@ -98,24 +98,24 @@ to keep the name unique within your table.  If you don't like this identifier, y
 can change it, though it will still need to be Python-friendly.  Click the link icon to make the
 ID field editable, then enter the new Column ID.
 
-*![rename columns](images/columns/columns-rename-col-id.png)*
+*![rename columns](../images/columns/columns-rename-col-id.png)*
 {: .screenshot-half }
 
 ## Formatting columns
 
 Header and cell styles can be modified under the Column tab of the creator panel. 
 
-*![columns-formatting](images/columns/columns-formatting.png)*
+*![columns-formatting](../images/columns/columns-formatting.png)*
 {: .screenshot-half }
 
 When you open the styling menu, you have the option to apply text formatting as well as text and fill colors. 
 
-*![columns-formatting-options](images/columns/columns-formatting-options.png)*
+*![columns-formatting-options](../images/columns/columns-formatting-options.png)*
 
 If you want more color options, click the fill color box then find the shade you want. If you have a specific color you wish to use,
  you can enter the hex code, RGB or HSL values.
 
-*![column-formatting-hex](images/columns/column-formatting-hex.png)*
+*![column-formatting-hex](../images/columns/column-formatting-hex.png)*
 {: .screenshot-half }
 
 Cell style can also be changed based on conditional rules. Learn more about [Conditional Formatting](conditional-formatting.md).
@@ -134,25 +134,25 @@ by default.
 To inspect the type of a column, hover over the column header, then click on the drop-down,
 then select "Column Options".  The "Column Type" section is what you are looking for.
 
-*![columns-column-options](images/columns/columns-column-options.png)*
+*![columns-column-options](../images/columns/columns-column-options.png)*
 
 You will often want to control the column type manually.  You can change it in the "Column Type"
 section.  For example, here we set a column full of "yes" and "no" responses to be of type
 `Toggle`:
 
-*![columns-toggle](images/columns/columns-toggle.png)*
+*![columns-toggle](../images/columns/columns-toggle.png)*
 
 One advantage of doing so is that Grist can now offer you ways to visualize the column that
 are specialized to on/off style values.  Each column type has different options in the
 "Cell Format" section of the side panel:
 
-*![columns-toggle-appearance](images/columns/columns-toggle-appearance.png)*
+*![columns-toggle-appearance](../images/columns/columns-toggle-appearance.png)*
 
 Regardless of the column type, you can enter **any value** in cells. If a value entered is
 incompatible with the defined type, the cell will be highlighted with an error (and columns
 referencing the invalid value will also display an error):
 
-![Toggle out-of-vocabulary](images/columns/columns-toggle-oov.png)
+![Toggle out-of-vocabulary](../images/columns/columns-toggle-oov.png)
 
 
 ## Supported types
@@ -183,7 +183,7 @@ you can control alignment and word-wrap, text color and background color.
 If the column is used for storing web links, you can turn on "HyperLink"
 formatting to make links prettier and to include a clickable link icon.
 
-<span class="screenshot-large">*![columns-format-text](images/columns/columns-format-text.png)*</span>
+<span class="screenshot-large">*![columns-format-text](../images/columns/columns-format-text.png)*</span>
 {: .screenshot-half }
 
 ### Hyperlinks
@@ -207,7 +207,7 @@ This type is for numbers, including floating-point numbers. In addition to contr
 and color, you can choose the number format, and the minimum and maximum number of digits to
 show after the decimal point.
 
-<span class="screenshot-large">*![columns-format-numeric](images/columns/columns-format-numeric.png)*</span>
+<span class="screenshot-large">*![columns-format-numeric](../images/columns/columns-format-numeric.png)*</span>
 {: .screenshot-half }
 
 Choosing the "Spinner" option for CELL FORMAT will show arrows in each cell for
@@ -217,7 +217,7 @@ The options under NUMBER FORMAT include:
 
 - `$`: Format for currency amounts, such as dollars or euro. Selecting the `$` will add a currency prefix, thousands separators, and default to 2 digits after the decimal point. It will also open a currency selector for international currencies.
 
-  *![Format numeric](images/columns/columns-format-currency.png)*
+  *![Format numeric](../images/columns/columns-format-currency.png)*
   {: .screenshot-half }
   
 !!! note "Setting Default Currency"
@@ -242,7 +242,7 @@ the numeric type.
 This type is for storing true/false values.  The values can be shown
 as text, checkboxes, or switches.
 
-*![Format toggle](images/columns/columns-format-toggle.png)*
+*![Format toggle](../images/columns/columns-format-toggle.png)*
 {: .screenshot-half }
 
 See also example in [Specifying a type](col-types.md#specifying-a-type).
@@ -253,7 +253,7 @@ This type is for storing calendar dates (without a time of day component).
 More details in [Working with dates](dates.md).  You can choose the
 format for dates, see the [date formatting reference](https://momentjs.com/docs/#/displaying/format/).
 
-<span class="screenshot-large">*![columns-format-date](images/columns/columns-format-date.png)*</span>
+<span class="screenshot-large">*![columns-format-date](../images/columns/columns-format-date.png)*</span>
 {: .screenshot-half }
 
 
@@ -263,7 +263,7 @@ This type is for storing calendar dates plus time of day.
 More details in [Working with dates](dates.md).  You can choose the
 format for dates, see the [date and time formatting reference](https://momentjs.com/docs/#/displaying/format/).  You can also specify the timezone to display for. 
 
-<span class="screenshot-large">*![columns-format-datetime](images/columns/columns-format-datetime.png)*</span>
+<span class="screenshot-large">*![columns-format-datetime](../images/columns/columns-format-datetime.png)*</span>
 {: .screenshot-half }
 
 If you'd like to set a default timezone for your document, you can do so in [Document Settings](creating-doc.md#document-settings).
@@ -273,7 +273,7 @@ If you'd like to set a default timezone for your document, you can do so in [Doc
 This type is for storing one of a set of valid values, where you get to
 specify the available values.
 
-<span class="screenshot-large">*![columns-format-choice](images/columns/columns-format-choice.png)*</span>
+<span class="screenshot-large">*![columns-format-choice](../images/columns/columns-format-choice.png)*</span>
 {: .screenshot-half }
 
 There's an example of using this type of column in
@@ -323,7 +323,7 @@ and `Enter` to add a choice to a cell. If your input is not one of the
 valid choices, Grist will display a menu option for conveniently adding it as a
 valid choice and into the cell in one step.
 
-<span class="screenshot-large">*![columns-cell-choice](images/columns/columns-cell-choice.png)*</span>
+<span class="screenshot-large">*![columns-cell-choice](../images/columns/columns-cell-choice.png)*</span>
 {: .screenshot-half }
 
 ## Choice List columns
@@ -331,7 +331,7 @@ valid choice and into the cell in one step.
 This type is for storing multiple values from a set of valid values, where you
 get to specify the available values.
 
-<span class="screenshot-large">*![columns-format-choice-list](images/columns/columns-format-choice-list.png)*</span>
+<span class="screenshot-large">*![columns-format-choice-list](../images/columns/columns-format-choice-list.png)*</span>
 {: .screenshot-half }
 
 If you start off with a populated text column, Grist will take all unique
@@ -347,7 +347,7 @@ Like with Choice columns, when typing into a Choice List column cell, the
 valid choices will be shown in an autocomplete menu. Once you've selected
 a value, you can continue adding choices to the same cell.
 
-*![Format choice](images/columns/columns-cell-choice-list.png)*
+*![Format choice](../images/columns/columns-cell-choice-list.png)*
 {: .screenshot-half }
 
 Choices can be re-arranged inside their cells by clicking and dragging them
@@ -362,7 +362,7 @@ table to reference, and a column within that table to show.
 There's a lot you can do with this kind of column, see [Reference columns](col-refs.md) for
 details.
 
-<span class="screenshot-large">*![columns-format-reference](images/columns/columns-format-reference.png)*</span>
+<span class="screenshot-large">*![columns-format-reference](../images/columns/columns-format-reference.png)*</span>
 {: .screenshot-half }
 
 ## Reference List columns
@@ -372,7 +372,7 @@ references in a single cell.
 There's a lot you can do with this kind of column, see
 [Reference columns](col-refs.md#creating-a-new-reference-list-column) for details.
 
-<span class="screenshot-large">*![columns-format-reference-list](images/columns/columns-format-reference-list.png)*</span>
+<span class="screenshot-large">*![columns-format-reference-list](../images/columns/columns-format-reference-list.png)*</span>
 {: .screenshot-half }
 
 ## Attachment columns
@@ -381,18 +381,18 @@ This column type lets you insert entire files and images in cells.
 When images are added in cells, a preview thumbnail is shown in the
 cell.  The "Size" bar gives control of the scale of this thumbnail.
 
-<span class="screenshot-large">*![columns-format-attachment](images/columns/columns-format-attachment.png)*</span>
+<span class="screenshot-large">*![columns-format-attachment](../images/columns/columns-format-attachment.png)*</span>
 {: .screenshot-half }
 
 When you create an attachment column, cells of that column will
 have a paperclip icon:
 
-![Attachment paperclip](images/columns/columns-attachment-column.png)
+![Attachment paperclip](../images/columns/columns-attachment-column.png)
 
 When you click on a paperclip icon, you can select a file to attach.
 If it is an image, you'll see a thumbnail of it in the cell.
 
-![Image attachment](images/columns/columns-attach-image.png)
+![Image attachment](../images/columns/columns-attach-image.png)
 
 <!-- Source: https://en.wikipedia.org/wiki/File:Red_eyed_tree_frog_edit2.jpg -->
 
@@ -402,4 +402,4 @@ also see an "open-eye" icon, which when clicked brings up a
 larger view of all of the cell's attachments, and gives you
 a way to rename them, download them, or remove them.
 
-![Image browser](images/columns/columns-view-image.png)
+![Image browser](../images/columns/columns-view-image.png)

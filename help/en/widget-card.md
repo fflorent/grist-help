@@ -10,14 +10,14 @@ another Table widget (see [Linking widgets](linking-widgets.md)). It can then sh
 the selected record. The single Card widget may also be used on its own. In this case, you'll see
 navigation buttons on top to move to the next or previous record, or to add a new one.
 
-  *![card_navigation](images/card_navigation.png)*
+  *![card_navigation](../images/card_navigation.png)*
   {: .screenshot-half }
 
 ## Selecting theme
 
 The widget options panel allows choosing the theme, or style, for the card:
 
-  *![card_theme](images/card_theme.png)*
+  *![card_theme](../images/card_theme.png)*
   {: .screenshot-half }
 
 ## Editing card layout
@@ -25,16 +25,16 @@ To configure the layout of a card, click the green "Edit Card Layout" button bel
 selector, or click the three dots on the top right of the widget and select "Edit Card Layout" in the
 menu.
 
-  *![card_edit_button](images/card_edit_button.png)*
+  *![card_edit_button](../images/card_edit_button.png)*
   {: .screenshot-half }
 
-  *![card_edit_menu](images/card_edit_menu.png)*
+  *![card_edit_menu](../images/card_edit_menu.png)*
   {: .screenshot-half }
 
 While the layout editor is active, you'll see a single record with draggable fields,
 and a set of buttons on top of the widget.
 
-  *![card_layout_editor](images/card_layout_editor.png)*
+  *![card_layout_editor](../images/card_layout_editor.png)*
   {: .screenshot-half }
 
 #### Resizing a field
@@ -42,7 +42,7 @@ To resize a field, move the mouse to a vertical border separating two fields and
 the border to your desired size. Only the width of fields may be changed, while the height changes
 dynamically to fit the field contents.
 
-  *![card_layout_resize](images/card_layout_resize.png)*
+  *![card_layout_resize](../images/card_layout_resize.png)*
   {: .screenshot-half }
 
 #### Moving a field
@@ -51,7 +51,7 @@ near the edges of other fields, you will notice boxes with dashed borders indica
 relation to other fields. Release the mouse over one of these boxes to place your field into the desired
 location.
 
-  *![card_layout_move](images/card_layout_move.png)*
+  *![card_layout_move](../images/card_layout_move.png)*
   {: .screenshot-half }
 
 #### Deleting a field
@@ -59,7 +59,7 @@ To delete a field, move the mouse over it. An "x" icon will appear. Click this i
 field. This is similar to hiding a column as removing a field from a widget does not delete the
 underlying data.
 
-  *![card_layout_delete](images/card_layout_delete.png)*
+  *![card_layout_delete](../images/card_layout_delete.png)*
   {: .screenshot-half }
 
 You can also delete a field by hiding it in in the "Visible Fields" list in the side panel, as described in
@@ -71,7 +71,7 @@ To add a field, click the "Add Field" button on top of the layout editor. In the
 select "Create New Field" to create a new column of data, or one of the existing fields in the
 table that are not currently shown in the card.
 
-  *![card_layout_add_menu](images/card_layout_add_menu.png)*
+  *![card_layout_add_menu](../images/card_layout_add_menu.png)*
   {: .screenshot-half }
 
 When you click on the field, it will be added at the bottom of the layout. You can then move it or

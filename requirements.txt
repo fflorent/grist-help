@@ -19,3 +19,4 @@ requests==2.26.0
 six==1.15.0
 tornado==6.0.4
 tqdm==4.48.0
+yq==3.2.3

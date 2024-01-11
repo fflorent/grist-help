@@ -7,16 +7,16 @@ yourself, click on the circle with your profile picture or initial
 on the top right of the screen.  Then select the "Profile Settings"
 option.
 
-*![api-profile-settings](images/api/api-profile-settings.png)*
+*![api-profile-settings](../images/api/api-profile-settings.png)*
 {: .screenshot-half}
 
 This shows a dialog with all of your profile setting options. Scroll down to the "API" section.
 
-![api-user-profile](images/api/api-user-profile.png)
+![api-user-profile](../images/api/api-user-profile.png)
 
 Click on the "Create" button to create an API Key.
 
-![api-create-api-key](images/api/api-create-api-key.png)
+![api-create-api-key](../images/api/api-create-api-key.png)
 
 You can now copy this key for use when making API calls.  To be
 clear, copy the key you get when clicking "Create", not the key

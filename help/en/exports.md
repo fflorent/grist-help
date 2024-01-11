@@ -7,7 +7,7 @@ you can export that table as either an XLSX file or a CSV, a common interchange 
 To do this, open your document to the desired table or widget. Then click the three dot menu in the top right of the widget. 
 Select either "Download as CSV" or "Download as XLSX".
 
-<center>![Export Table](images/exports/export-table.png)</center>
+<center>![Export Table](../images/exports/export-table.png)</center>
 
 Your browser will then download a file containing a header row
 naming your columns, excluding any hidden columns or filtered-out rows, followed by all the
@@ -19,7 +19,7 @@ If you want to export all tables to Excel format, click the sharing icon
 (<span class="grist-icon" style="--icon: var(--icon-Share)"></span>)
 on the top right of the screen and select "Export XLSX".
 
-<center>![Export Document](images/exports/export-xlsx.png)</center>
+<center>![Export Document](../images/exports/export-xlsx.png)</center>
 
 Your browser will then download an Excel file, where each table is a separate sheet
 containing all rows, without any filters applied. To use this option you need to have full
@@ -39,7 +39,7 @@ signed in) and then for permission to create a file in your Google Drive. Grist 
 able to create new files and manage them but will not be able to access any other files in
 your drive.
 
-![exports-send-to-google](images/exports/exports-send-to-google.png)
+![exports-send-to-google](../images/exports/exports-send-to-google.png)
 
 Once you accept the permission request, Grist will export your document to an 
 [Excel file](exports.md#exporting-a-document) and then save it in your Google Drive as a
@@ -63,7 +63,7 @@ To download a Grist document, click the sharing icon
 (<span class="grist-icon" style="--icon: var(--icon-Share)"></span>)
 on the top right of the screen, and select "Download".
 
-![exports-download](images/exports/exports-download.png)
+![exports-download](../images/exports/exports-download.png)
 
 ## Restoring from backup
 
@@ -72,6 +72,6 @@ original.  To upload the file, open the team or personal site where
 you want to place it, and optionally select also a workspace.
 Then click on "Add New" in the top left, and select "Import document".
 
-![exports-import-document](images/exports/exports-import-document.png)
+![exports-import-document](../images/exports/exports-import-document.png)
 
 You may also import CSV and Excel files as new Grist documents this way.

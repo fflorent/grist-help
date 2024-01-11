@@ -11,23 +11,23 @@ applications tailored to your needs.
 In Grist, you organize your document into "pages". These are listed in the left panel, with collapsible
 groups. You may rearrange and group pages in the left panel by dragging them to suit your needs.
 
-*![drag_pages](images/drag_pages.png)*
+*![drag_pages](../images/drag_pages.png)*
 {: .screenshot-half }
 
 You can rename, remove, or duplicate pages using the three-dots menu next to the page name in the list. 
 
-*![Renaming Pages Menu](images/rename_pages1.png)*
+*![Renaming Pages Menu](../images/rename_pages1.png)*
 {: .screenshot-half }
 
 * **Renaming** the page does not edit data tables' names or widget titles. See [changing widget](page-widgets.md#changing-widget-or-its-data) below to learn how to edit table and widget names.
 * **Duplicating** a page duplicates *views* of data and does not duplicate the data itself.
 * **Removing** a page does not delete data. When removing the last view of data, you will be asked if you want to delete only the view, but not the data itself; or if you want to delete both the page and the underlying data table(s). Learn more about your document's data in the [raw data page](raw-data.md).
 
-*![Removing Pages](images/pages-delete.png)*
+*![Removing Pages](../images/pages-delete.png)*
 
 Note that pages can also be renamed by clicking the page name on top of the screen. 
 
-*![Renaming Pages Breadcrumbs](images/rename_pages2.png)*
+*![Renaming Pages Breadcrumbs](../images/rename_pages2.png)*
 {: .screenshot-half }
 
 
@@ -43,7 +43,7 @@ choose the page widget to include in the new page.
     
     When a Page name starts with an emoji, it will replace the page icon.
 
-    *![page-emoji-icon](images/page-emoji-icon.png)*
+    *![page-emoji-icon](../images/page-emoji-icon.png)*
     {: .screenshot-half }
 
 ## Page widgets
@@ -62,18 +62,18 @@ on separate pages.
 - [Calendar](widget-calendar.md): displays event data in a calendar view.
 - [Custom](widget-custom.md): inserts a custom webpage, optionally granting it access to the document's data.
 
-![page_widget_types](images/page_widget_types.png)
+![page_widget_types](../images/page_widget_types.png)
 
 There is a special page called [raw data](raw-data.md) that lists all data tables in your document and summarizes your document's usage statistics. Navigate to the raw data page by clicking on the Raw Data link in the bottom left of the pages menu.
 
-![Raw Data in Menu](images/raw-data/raw-data-nav.png)
+![Raw Data in Menu](../images/raw-data/raw-data-nav.png)
 
 ## Widget picker
 
 The menu opened by the "Add New" button has options "Add Page" and "Add Widget to Page". In either
 case, you'll see the "page widget picker" where you can choose your desired widget:
 
-*![page_widget_picker](images/page_widget_picker.png)*
+*![page_widget_picker](../images/page_widget_picker.png)*
 
 You can select the type of widget and the table of data to show (or "New Table" to create a new
 table). The "summary" icon (<span class="grist-icon" style="--icon: var(--icon-Pivot)"></span>)
@@ -92,7 +92,7 @@ If you'd like to change a widget or the data it displays after it's added, you m
 the three-dots button on the top right of your widget, and select "Widget options". This opens the
 right-side panel. Click on "Change Widget".
 
-*![change_widget](images/change_widget.png)*
+*![change_widget](../images/change_widget.png)*
 {: .screenshot-half }
 
 You can then use the widget picker to change the widget or the data it displays. You may also edit the widget's title or add a description. 
@@ -103,7 +103,7 @@ You can rename widgets in several ways. We saw in the section above that you can
 
 Another way is to click on the widget title above a widget. From here, you can edit the widget's title, the underlying data table's name or add a description. By default, the widget title is the data table's name. To override this, enter a new title under 'Widget Title'. Learn more about data tables in the [raw data page](raw-data.md).
 
-*![Renaming Widgets](images/widgets-renaming.png)*
+*![Renaming Widgets](../images/widgets-renaming.png)*
 {: .screenshot-half }
 
 ## Configuring field lists
@@ -131,16 +131,16 @@ open the right panel. Depending on the currently-selected widget, you might see 
 configuring a Column, Field, or Series. These are not different in substance, but different terms
 make more sense for different widgets.
 
-*![panel_header_table](images/panel_header_table.png)*
+*![panel_header_table](../images/panel_header_table.png)*
 {: .screenshot-half }
 
-*![panel_header_card](images/panel_header_card.png)*
+*![panel_header_card](../images/panel_header_card.png)*
 {: .screenshot-half }
 
-*![panel_header_cardlist](images/panel_header_cardlist.png)*
+*![panel_header_cardlist](../images/panel_header_cardlist.png)*
 {: .screenshot-half }
 
-*![panel_header_chart](images/panel_header_chart.png)*
+*![panel_header_chart](../images/panel_header_chart.png)*
 {: .screenshot-half }
 
 Clicking on the widget tab (highlighted in green in the images above), you'll see subtabs for
@@ -148,7 +148,7 @@ Clicking on the widget tab (highlighted in green in the images above), you'll se
 specific to the type of the selected widget, and below that two lists: "Visible Columns" and
 "Hidden Columns".
 
-*![widget_tab](images/widget_tab.png)*
+*![widget_tab](../images/widget_tab.png)*
 {: .screenshot-half }
 
 The "Hidden Columns" are the columns available in the data, but not shown in this widget. In a
@@ -159,10 +159,10 @@ These lists allow you to include, exclude, or rearrange fields in a widget. As y
 over the items in the list, use the "eye" icons that pop up to show or hide them. Alternatively,
 you can select several items using the checkboxes, and hide or show them together.
 
-*![widget_tab_hide_hover](images/widget_tab_hide_hover.png)*
+*![widget_tab_hide_hover](../images/widget_tab_hide_hover.png)*
 {: .screenshot-half }
 
-*![widget_tab_hide_checkboxes](images/widget_tab_hide_checkboxes.png)*
+*![widget_tab_hide_checkboxes](../images/widget_tab_hide_checkboxes.png)*
 {: .screenshot-half }
 
 This ordered list of fields can be used to customize any of the page widget types. It has a

@@ -4,7 +4,7 @@ Document history
 To access information about a document's history, click "Document History" in the left panel.
 The right panel will then offer two tabs, "Activity" and "Snapshots".
 
-<span class="screenshot-large">*![Document History](images/automatic-backups/doc-history.png)*</span>
+<span class="screenshot-large">*![Document History](../images/automatic-backups/doc-history.png)*</span>
 {: .screenshot-half }
 
 ## Snapshots
@@ -24,5 +24,5 @@ current version of the cell (if it still exists) in the "primary" widget
 for the table containing it (this is typically the first widget created showing
 the table).
 
-![Document Activity](images/document-history/author-activity.png)
+![Document Activity](../images/document-history/author-activity.png)
 

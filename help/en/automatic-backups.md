@@ -12,7 +12,7 @@ retained for more than a year.
 To see the list of backups, click "Document History" in the left panel, then click the "Snapshots"
 tab in the panel that opens on the right:
 
-<span class="screenshot-large">*![Unsaved Copy Menu](images/automatic-backups/doc-history.png)*</span>
+<span class="screenshot-large">*![Unsaved Copy Menu](../images/automatic-backups/doc-history.png)*</span>
 {: .screenshot-half }
 
 You can open any of the listed snapshots to see the document as it existed at that time.
@@ -21,7 +21,7 @@ You can open any of the listed snapshots to see the document as it existed at th
 
 While examining a snapshot, the "Share" menu has additional options;
 
-<span class="screenshot-large">*![Unsaved Copy Menu](images/automatic-backups/snapshot-share-menu.png)*</span>
+<span class="screenshot-large">*![Unsaved Copy Menu](../images/automatic-backups/snapshot-share-menu.png)*</span>
 {: .screenshot-half }
 
 Use the "Replace Current Version" option to revert your document to the version you are looking at.

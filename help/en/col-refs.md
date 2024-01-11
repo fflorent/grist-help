@@ -17,7 +17,7 @@ Suppose we have a document with two tables, Clients and Projects.  The Clients t
 our clients - names, contacts, signing dates - and the Projects table lists projects we do for
 clients.
 
-![Reference motivation](images/columns/columns-reference-clients-projects.png)
+![Reference motivation](../images/columns/columns-reference-clients-projects.png)
 
 There are all sorts of things Grist can do for us if we let it know that the Client column
 in the Projects table is referring to clients listed in the Clients table.  We can do this
@@ -27,7 +27,7 @@ to "Reference".  Adjust the "Data from Table" option to be the correct table you
 to cross-reference, and the "Show Column" option to match which column of that table
 you'd like to show.  Then hit "Apply" when you're happy with the result.
 
-![Reference set-up](images/columns/columns-reference-link-client.png)
+![Reference set-up](../images/columns/columns-reference-link-client.png)
 
 !!! note "Understanding the reference"
     The column value always references the entire **record** in the underlying table. The displayed
@@ -39,7 +39,7 @@ column cells, showing that they have been successfully cross-referenced with the
 Once the column type is set, you can start typing into it or double-click it to see a dropdown
 list of all available values.
 
-*![Select dropdown values](images/column-ref-select-dropdown.png)*
+*![Select dropdown values](../images/column-ref-select-dropdown.png)*
 {: .screenshot-half }
 
 Note that the table `Clients` and the column `Client` are related by the column type rather than
@@ -52,7 +52,7 @@ by name. They can be named anything.
 If you accidentally type in a value that is not present in the `Clients` table, its value will be
 highlighted as invalid:
 
-*![Invalid reference value](images/column-ref-invalid.png)*
+*![Invalid reference value](../images/column-ref-invalid.png)*
 {: .screenshot-half }
 
 ## Adding values to a Reference column
@@ -62,7 +62,7 @@ underlying table. Reference columns make it easy! Just type in the value you wan
 `+` value in the dropdown list. Grist will automatically add a new record containing this value to
 the underlying table and insert the proper reference:
 
-*![Add reference value](images/column-ref-add-value.png)*
+*![Add reference value](../images/column-ref-add-value.png)*
 {: .screenshot-half }
 
 ## Converting Text column to Reference
@@ -76,7 +76,7 @@ the proper values for them.
 In this example, the first three values match perfectly, but `Forest Labs` is invalid because it
 doesn't exist in the `Clients` table:
 
-![Convert values after](images/column-ref-convert-after.png)
+![Convert values after](../images/column-ref-convert-after.png)
 
 ## Including multiple fields from a reference
 
@@ -85,7 +85,7 @@ the underlying table. In our example, if you wanted to bring in `$Client.Contact
 table, you can just select the `Contact` column from the `Add Referenced Columns` section and it will be
 automatically added to the `Projects` table:
 
-![Additional columns inserted](images/column-ref-other-columns.png)
+![Additional columns inserted](../images/column-ref-other-columns.png)
 
 If you're comfortable using formulas, you can see that the added column is just the formula
 `=$Client.Contact`. If you were so inclined, you could achieve the same result by manually adding
@@ -96,7 +96,7 @@ Note that in formulas, we use the name of the reference *column* (`$Client`) to 
 record, not the name of the table (which is `Clients` here). Don't let the similarity of the names
 in this example confuse you.
 
-*![Additional columns as formulas](images/column-ref-other-formula.png)*
+*![Additional columns as formulas](../images/column-ref-other-formula.png)*
 {: .screenshot-half }
 
 !!! note "Using references in formulas"
@@ -120,7 +120,7 @@ and set the "Column Type" of `Client` to "Reference List". Grist will automatica
 any of your existing references to reference lists. Once you're happy with the result, just
 hit "Apply" and the `Client` column will be ready to accept as many clients as your projects need.
 
-![Reference List set-up](images/columns/columns-reference-list-transform.png)
+![Reference List set-up](../images/columns/columns-reference-list-transform.png)
 
 ## Editing values in a Reference List column
 
@@ -129,7 +129,7 @@ To make changes to a Reference List cell, simply double-click the cell or press 
 edit. You can also start typing after selecting a cell if you'd like to write over
 any existing contents. Doing so will open an editor like the one in the example below.
 
-*![Reference List editor](images/columns/columns-reference-list-editor.png)*
+*![Reference List editor](../images/columns/columns-reference-list-editor.png)*
 {: .screenshot-half }
 
 Like with Reference columns, the autocomplete menu will populate with suggestions
@@ -154,16 +154,16 @@ Let's take a look at the [Class Enrollment](https://templates.getgrist.com/doc/a
 
 In the Classes table, the Instructor column is a reference column that references data from the Staff table. Full Name is selected under 'Show Column' and is used as a label to represent the record from the Staff table that is being referenced here.
 
-*![columns-reference-explanation](images/columns/columns-reference-explanation.png)*
+*![columns-reference-explanation](../images/columns/columns-reference-explanation.png)*
 
 We can change that label to any other value contained within the record. Let's change it to 'Row ID'. 
 
-<span class="screenshot-large">*![columns-reference-explanation-show-column](images/columns/columns-reference-explanation-show-column.png)*</span>
+<span class="screenshot-large">*![columns-reference-explanation-show-column](../images/columns/columns-reference-explanation-show-column.png)*</span>
 {: .screenshot-half }
 
 The row ID is what is actually being stored within the Reference or Reference List column. With this ID, we can fetch any data associated with this record. 
 
-*![columns-reference-explanation-rowid1](images/columns/columns-reference-explanation-rowid1.png)*
+*![columns-reference-explanation-rowid1](../images/columns/columns-reference-explanation-rowid1.png)*
 
 In the first row of the Classes table, we see `Staff[2]` as the value in the Instructor column. This represents the record in the Staff table with Row ID = `2`.
 
@@ -171,8 +171,8 @@ We can navigate to the Staff table and see which record is assigned Row ID = `2`
 
 To view a record's unique ID, add a new column with the formula = [`$id`](formula-cheat-sheet.md#using-a-records-unique-identifier-in-formulas). 
 
-*![columns-reference-explanation-rowid](images/columns/columns-reference-explanation-rowid.png)*
+*![columns-reference-explanation-rowid](../images/columns/columns-reference-explanation-rowid.png)*
 
 We can see that the value in the Full Name column for the record with Row ID =`2` is `Dowbakin, Daniella`. If we revert back to our original settings for the Instructor column of the Classes table, where `Full Name` was selected under Show Column, we see that the Full Name value associated with `Staff[2]` is `Dowbakin, Daniella`.
 
-*![columns-reference-explanation-fullname](images/columns/columns-reference-explanation-fullname.png)*
+*![columns-reference-explanation-fullname](../images/columns/columns-reference-explanation-fullname.png)*

@@ -37,19 +37,19 @@ Here are some of the most useful ones:
   column options. You can toggle a value in such a cell by clicking the check
   mark or the switch, or by hitting <code class="keys">*Space*</code>.
 
-  *![toggle-edit](images/toggle-edit.png)*
+  *![toggle-edit](../images/toggle-edit.png)*
   {: .screenshot-half }
 
 - **Date** and **DateTime**. Hitting <code class="keys">*Enter*</code> on such
   a cell will open a calendar to pick a date.
 
-  *![date-edit](images/date-edit.png)*
+  *![date-edit](../images/date-edit.png)*
   {: .screenshot-half }
 
 - **Choice** and **Reference**. Typing into a cell of one of these types will produce an
   auto-complete dropdown menu.
 
-  *![choice-edit](images/choice-edit.png)*
+  *![choice-edit](../images/choice-edit.png)*
   {: .screenshot-half }
 
 ## Linking to cells
