@@ -14,7 +14,7 @@ view to just those records tied to their family.
 
 Let's do that now.
 
-![Tutor and family's views](../images/2021-04-link-keys/full-v-limited-access-animated.gif)
+![Tutor and family's views](images/2021-04-link-keys/full-v-limited-access-animated.gif)
 *The private tutor can see all data, but a parent can only see their family's data.*
 {: .wide-img-caption}
 
@@ -24,17 +24,17 @@ In the families table, create a new column in which you will use Grist’s
 [`UUID()`](../functions.md#uuid) function to generate and assign a unique key to
 each family.
 
-![Create a UUID for each family](../images/2021-04-link-keys/private-tutor-uuid.png)
+![Create a UUID for each family](images/2021-04-link-keys/private-tutor-uuid.png)
 
 Convert the column to the data column to freeze its values.
 
-<span class="screenshot-large">*![Convert to Data Column](../examples/images/2021-04-link-keys/convert-to-data-column.png)*</span>
+<span class="screenshot-large">*![Convert to Data Column](../examplimages/2021-04-link-keys/convert-to-data-column.png)*</span>
 {: .screenshot-half }
 
 You'll notice our formula has changed to a trigger formula. Select 'Apply to new records'. 
 This will ensure that new rows will also be assigned a unique identifier.
 
-<span class="screenshot-large">*![Apply to New Records](../examples/images/2021-04-link-keys/apply-to-new-records.png)*</span>
+<span class="screenshot-large">*![Apply to New Records](../examplimages/2021-04-link-keys/apply-to-new-records.png)*</span>
 {: .screenshot-half }
 
 ## Step 2: Connect UUID to records in other tables
@@ -45,7 +45,7 @@ with the simple formula `$Family.UUID`{: .formula}.
 Not sure how this works? Brush up on Grist's powerful [reference
 columns](../col-refs.md#reference-and-reference-lists).
 
-![Use reference columns to fetch UUID](../images/2021-04-link-keys/private-tutor-reference-UUID.png)
+![Use reference columns to fetch UUID](images/2021-04-link-keys/private-tutor-reference-UUID.png)
 
 **Tip:** The formula `$Family.UUID`{: .formula} gets the UUID from the record
 that is referenced in the Family column.
@@ -58,7 +58,7 @@ formula `SELF_HYPERLINK(LinkKey_UUID=$UUID)`{: .formula}
 to create a link key called "UUID" that sets the URL parameter to a specific `$UUID` within a record.
 Convert the column type to Text > Hyperlink.
 
-![Creating unique links](../images/2021-04-link-keys/private-tutor-UUID-links.png)
+![Creating unique links](images/2021-04-link-keys/private-tutor-UUID-links.png)
 
 **How does this work?** The link generated for "Raddon, Fin" is
 `.../Private-Tutor-recUUID/p/9?UUID_=6752c258-443d-4a2c-800d-1491da265b72`. The “link key” is the
@@ -88,7 +88,7 @@ accessible.
 
 **Tip:** Do not edit the default rules. Row-level access is granted in the relevant tables.
 
-![Creating unique links](../images/2021-04-link-keys/private-tutor-UUID-acl.png)
+![Creating unique links](images/2021-04-link-keys/private-tutor-UUID-acl.png)
 
 You did it! This is just the beginning. There's a lot more you can do with link keys. Check out
 [another example](../access-rules.md#link-keys) to deepen your
@@ -99,5 +99,5 @@ understanding of link keys even more.
 here](https://public.getgrist.com/9ZQvegsao3zT/Private-Tutor-LinkKey-Tutorial-Solution?UUID_=039170d0-c4d6-4a43-a357-3cb0fd10822f).
 Make a copy to see all data:
 
-<span class="screenshot-large">*![make-a-copy](../images/2021-04-link-keys/make-a-copy.png)*</span>
+<span class="screenshot-large">*![make-a-copy](images/2021-04-link-keys/make-a-copy.png)*</span>
 {: .screenshot-half }

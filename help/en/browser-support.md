@@ -16,15 +16,15 @@ You can use Grist quite comfortably in mobile browsers such as Chrome, Safari, a
 
 On small screens, you can find the list of pages from the button in the bottom bar.
 
-*![Grist on mobile](../images/newsletters/2021-02/mobile-pages.png)*
+*![Grist on mobile](images/newsletters/2021-02/mobile-pages.png)*
 
 For pages with multiple widgets, only the active widget is expanded. Other widgets are collapsed until you touch to expand them.
 
-*![Expanding widgets](../images/newsletters/2021-02/mobile-widgets.png)*
+*![Expanding widgets](images/newsletters/2021-02/mobile-widgets.png)*
 
 To edit a cell, simply double-tap it.
 
 Mobile support is still a work in progress. To get back to the desktop version on a mobile device, open your account menu, and select “Toggle Mobile Mode” option:
 
-*![Toggle mobile mode](../images/toggle-mobile-mode.png)*
+*![Toggle mobile mode](images/toggle-mobile-mode.png)*
 {: .screenshot-half }

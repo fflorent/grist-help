@@ -11,11 +11,11 @@ When the document is open, click on the sharing icon
 on the top right of the screen. It opens a menu with sharing and export
 options. Select "Manage Users".
 
-![sharing-doc-menu](../images/sharing/sharing-doc-menu.png)
+![sharing-doc-menu](images/sharing/sharing-doc-menu.png)
 
 This option is also available in the Grist home page, when you click the three-dots icon to the right of a document's name.
 
-![sharing-doclist-menu](../images/sharing/sharing-doclist-menu.png)
+![sharing-doclist-menu](images/sharing/sharing-doclist-menu.png)
 
 If the "Manage Users" item is grayed out, it means you don't have permission to
 view or manage the sharing settings for this document.
@@ -24,11 +24,11 @@ The sharing dialog that opens lists the users that have access to the
 document. To add a user, enter that user's email address and hit "Enter" or click
 "Invite new member" in the dropdown.
 
-![sharing-add-user](../images/sharing/sharing-add-user.png)
+![sharing-add-user](images/sharing/sharing-add-user.png)
 
 You may select a role for any invited user, and click "Confirm" to save the changes and send any invitations.
 
-![sharing-roles](../images/sharing/sharing-roles.png)
+![sharing-roles](images/sharing/sharing-roles.png)
 
 ## Roles
 
@@ -57,7 +57,7 @@ Open the share menu by clicking on the share icon
 (<span class="grist-icon" style="--icon: var(--icon-Share)"></span>) on top right of the
 screen and selecting "Manage Users". Toggle the dropdown next to "Public Access" and select "On":
 
-<span class="screenshot-large">*![public access toggle](./images/newsletters/2020-09/public-access-toggle.png)*</span>
+<span class="screenshot-large">*![public access toggle]images/newsletters/2020-09/public-access-toggle.png)*</span>
 
 Once you click "confirm", anyone with the link to your document
 will be able to view it. They will not be required to have a Grist login.
@@ -68,7 +68,7 @@ pasting into an email, tweet, or anywhere else.
 You can also allow anyone with the link to edit your document. Simply 
 switch the role for Public Access to Editor.
 
-<span class="screenshot-large">*![public access editor](./images/newsletters/2020-09/public-access-editor.png)*
+<span class="screenshot-large">*![public access editor]images/newsletters/2020-09/public-access-editor.png)*
 </span>
 
 Note that this allows **anyone** with the link to change
@@ -95,8 +95,8 @@ Non-owners may look up their access details to a document by clicking on the sha
 (<span class="grist-icon" style="--icon: var(--icon-Share)"></span>) on top right of the
 screen and selecting "Access Details."
 
-![Access Details](../images/newsletters/2022-05/access-details.png)
+![Access Details](images/newsletters/2022-05/access-details.png)
 
 From the access details pop up, you may click the trash icon to leave a document.
 
-![Access Details](../images/sharing/sharing-access-details.png)
+![Access Details](images/sharing/sharing-access-details.png)

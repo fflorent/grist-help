@@ -11,14 +11,14 @@ No data is shared with OpenAI unless a user submits a question to the assistant.
 
 Create a [formula column](formulas.md) and click either the expand icon or the “use AI Assistant” link text in the cell. 
 
-<span class="screenshot-large">*![Opening AI Assistant](../images/ai-assistant/formula-cell-editor.png)*</span>
+<span class="screenshot-large">*![Opening AI Assistant](images/ai-assistant/formula-cell-editor.png)*</span>
 {: .screenshot-half }
 
 This will open an expanded formula editor with the AI Assistant chat below it. Simply describe what you want the formula to do. [Here are some tips.](ai-assistant.md#best-practices)
 
 When you apply a suggested formula, you will see the formula previewed in the column. If you are happy with the formula, click “Save”. Otherwise click “Cancel” to discard changes to the formula.
 
-<span class="screenshot-large">*![AI Formula Assistant](../images/ai-assistant/ai-assistant-dialog.png)*</span>
+<span class="screenshot-large">*![AI Formula Assistant](images/ai-assistant/ai-assistant-dialog.png)*</span>
 {: .screenshot-half }
 
 ## AI Assistant for Self-hosters
@@ -52,7 +52,7 @@ Free personal and free team plans have 100 AI Assistant credits (or requests). F
 
 * Sometimes the assistant gets stuck on a bad idea. If it keeps insisting on a particular formula method, consider clearing the conversation and starting over. Click the three dot menu in the AI Assistant header to clear a conversation. 
 
-<span class="screenshot-large">*![Clear AI Assistant Conversation](../images/ai-assistant/clear-conversation.png)*</span>
+<span class="screenshot-large">*![Clear AI Assistant Conversation](images/ai-assistant/clear-conversation.png)*</span>
 {: .screenshot-half }
 
 

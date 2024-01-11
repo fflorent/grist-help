@@ -12,7 +12,7 @@ To convert that column to text, open the column options as described in
 Change the column type to text in the dropdown.  You'll notice that a
 "cancel/revise/apply" dialog opens beside the dropdown.
 
-*![Tally to text](../images/columns/columns-tally-convert.png)*
+*![Tally to text](images/columns/columns-tally-convert.png)*
 {: .screenshot-half }
 
 To change how the conversion is done, click `Revise`.  You'll see
@@ -21,7 +21,7 @@ a formula box with the default conversion method,
 to text for the `tally` column".  you can replace this with any formula you
 like.  For example:
 
-*![Tally to lines](../images/columns/columns-tally-convert-lines.png)*
+*![Tally to lines](images/columns/columns-tally-convert-lines.png)*
 {: .screenshot-half }
 
 Code for converting to unicode tally lines is left as an exercise to
@@ -35,7 +35,7 @@ Spreadsheets are convenient tools for cleaning up data using [formulas](formulas
 For example, imagine you had zip codes that have lost leading zeros - you can easily
 reformat them with a quick formula:
 
-![Motivating transformations](../images/columns/columns-zip-columns.png)
+![Motivating transformations](images/columns/columns-zip-columns.png)
 
 We could now [freeze the results](formulas.md#freeze-a-formula-column) and delete the
 original data if we don't need it anymore.
@@ -46,7 +46,7 @@ modify all cells of a column. Find the "Transform" section
 at the bottom of the column options side panel (see [Columns](col-types.md) for
 how to open this panel).
 
-![Column transformations](../images/columns/columns-transformer.png)
+![Column transformations](images/columns/columns-transformer.png)
 
 When you click the orange "lightning" button, Grist prompts you with a formula,
 `return $zip` in this case.  You can edit this formula to make some change to
@@ -57,7 +57,7 @@ change our column type to be `Text` (assuming it is currently `Integer` - if it
 `Numeric` convert to `Integer` first and then to `Text` to avoid decimal points).
 Once done, we can use our formula for adding leading zeros:
 
-![Column transformation preview](../images/columns/columns-transformer-preview.png)
+![Column transformation preview](images/columns/columns-transformer-preview.png)
 
 When happy, press "Apply" to replace the cell values with their new versions.
 Likewise, the `response` column could be transformed with the formula into true/false

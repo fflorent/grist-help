@@ -12,13 +12,13 @@ Here is an example using data from American Express (redacted for privacy, of co
 This first page is a dashboard: it shows a few summary charts — your expenses by month, and two pie
 charts to let you quickly see which card member or which category has the most expenses.
 
-![Dashboard](/examples/images/2020-06-credit-card-dashboard.png)
+![Dashboard](/examplimages/2020-06-credit-card-dashboard.png)
 
 The next three pages show breakdowns by Category, Card Member, and by Month. In addition to the
 totals by Category, you can click on any Category to see all transactions in it, and then click on
 any transaction to see its complete details.
 
-![By Category](/examples/images/2020-06-credit-card-by-category.png)
+![By Category](/examplimages/2020-06-credit-card-by-category.png)
 
 Here is the
 [example with sample data](https://templates.getgrist.com/2i9WoHs2oRzK/Credit-Card-Activity-Template-AmEx/){:target="\_blank"}
@@ -39,7 +39,7 @@ To import this data into Grist:
 2. Click "Add New" button and choose "Import from file".
 3. In the dialog that shows, change “To” table from “New Table” to “Activity”, like so:
 
-<span class="screenshot-large">*![Import destination](../images/2020-06-credit-card-import-destination.png)*</span>
+<span class="screenshot-large">*![Import destination](images/2020-06-credit-card-import-destination.png)*</span>
 {: .screenshot-half }
 
 Click "Import", and you are done. Your data is ready to explore.

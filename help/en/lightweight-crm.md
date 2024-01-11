@@ -42,13 +42,13 @@ left, and a regular spreadsheet with the same data on the right.
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="../images/lightweight-crm/grist-crm1.png" alt="Grist Screenshot1">
+            <img src="images/lightweight-crm/grist-crm1.png" alt="Grist Screenshot1">
           </div>
           <div class="item">
-            <img src="../images/lightweight-crm/grist-crm2.png" alt="Grist Screenshot2">
+            <img src="images/lightweight-crm/grist-crm2.png" alt="Grist Screenshot2">
           </div>
           <div class="item">
-            <img src="../images/lightweight-crm/grist-crm3.png" alt="Grist Screenshot3">
+            <img src="images/lightweight-crm/grist-crm3.png" alt="Grist Screenshot3">
           </div>
         </div>
 
@@ -75,13 +75,13 @@ left, and a regular spreadsheet with the same data on the right.
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="../images/lightweight-crm/spreadsheet1.png" alt="Spreadsheet Screenshot1">
+            <img src="images/lightweight-crm/spreadsheet1.png" alt="Spreadsheet Screenshot1">
           </div>
           <div class="item">
-            <img src="../images/lightweight-crm/spreadsheet2.png" alt="Spreadsheet Screenshot2">
+            <img src="images/lightweight-crm/spreadsheet2.png" alt="Spreadsheet Screenshot2">
           </div>
           <div class="item">
-            <img src="../images/lightweight-crm/spreadsheet3.png" alt="Spreadsheet Screenshot3">
+            <img src="images/lightweight-crm/spreadsheet3.png" alt="Spreadsheet Screenshot3">
           </div>
         </div>
 
@@ -143,15 +143,15 @@ to your desktop: [lightweight-crm-contacts.csv](lightweight-crm-contacts.csv). T
 New" button on the top left of your Grist home page, click "Import document", and select the file
 on your desktop.
 
-![import1](../images/lightweight-crm/import1.png)
+![import1](images/lightweight-crm/import1.png)
 
 You'll see a table of contacts with sample data. Note that in Grist, columns have names.
 
-![first-table](../images/lightweight-crm/first-table.png)
+![first-table](images/lightweight-crm/first-table.png)
 
 Rename this table to "Contacts" by clicking its name in the top bar, and typing the new name.
 
-![table-rename](../images/lightweight-crm/table-rename.png)
+![table-rename](images/lightweight-crm/table-rename.png)
 
 That's all you need for a simple table of contacts. You can add rows here, or add new columns to
 associate more data with each contact.
@@ -165,12 +165,12 @@ different number of rows from the table of contacts.
 Create the new table using the green "Add New" button on the top left of your screen, and click
 "Add Empty Table" in the menu.
 
-![add-empty-table](../images/lightweight-crm/add-empty-table.png)
+![add-empty-table](images/lightweight-crm/add-empty-table.png)
 
 This table will represent interactions with our contacts, so let's rename it "Interactions" by
 clicking its default name ("Table1") on top of the screen, as before.
 
-![interactions-table](../images/lightweight-crm/interactions-table.png)
+![interactions-table](images/lightweight-crm/interactions-table.png)
 
 
 It's a good idea to give meaningful names to columns. In this case, for each interaction, we need
@@ -178,11 +178,11 @@ to know which Contact it refers to, the date, type, and conversation notes. To r
 its header to select the column, and click the header again to edit its name. You can hit the Tab key to continue
 to renaming the next column.
 
-![col-rename](../images/lightweight-crm/col-rename.png)
+![col-rename](images/lightweight-crm/col-rename.png)
 
 Finally, hit the "+" button to the right of the last column to create one more column, and name it "Notes".
 
-![col-add](../images/lightweight-crm/col-add.png)
+![col-add](images/lightweight-crm/col-add.png)
 
 
 ## Linking data records
@@ -191,12 +191,12 @@ Every record in this table will belong to a particular contact. You set it up by
 "Contact" column into a reference to the table "Contacts". Using the triangle in the header of the
 column "Contact", open the menu and select "Column Options".
 
-![col-options](../images/lightweight-crm/col-options.png)
+![col-options](images/lightweight-crm/col-options.png)
 
 In the right panel, use the "Column Type" dropdown to select "Reference", then under "Data from
 table", select "Contacts".
 
-![set-reference1](../images/lightweight-crm/set-reference1.png)
+![set-reference1](images/lightweight-crm/set-reference1.png)
 
 Each cell in this column will hold a pointer to a *row* in the "Contacts" table[^foreign-key].
 While it refers to an entire row, it's useful to see some particular identifier of that row,
@@ -204,7 +204,7 @@ so under "Show column", select "Company". You'll see this in action shortly.
 
 [^foreign-key]: In the database world, this kind of reference or pointer is known as a "foreign key".
 
-![set-reference2](../images/lightweight-crm/set-reference2.png)
+![set-reference2](images/lightweight-crm/set-reference2.png)
 
 
 ## Setting other types
@@ -214,7 +214,7 @@ In Grist, every column has a type. Often, the default of Text or Numeric is corr
 click into the "Column Type" dropdown and select "Date". If you'd like, you can
 also choose a different date format right below the type.
 
-![set-date](../images/lightweight-crm/set-date.png)
+![set-date](images/lightweight-crm/set-date.png)
 
 Now, if you click on a cell in the "Date" column and hit Enter, you have a convenient date picker.
 
@@ -222,12 +222,12 @@ Another useful column type for us is "Choice". Our interactions will be either "
 "In-person", and it's useful to list these options. Click into the "Type" column, and in the
 right panel, set "Column Type" to "Choice".
 
-![set-choice](../images/lightweight-crm/set-choice.png)
+![set-choice](images/lightweight-crm/set-choice.png)
 
 You'll see "Choice Values" textbox below. Click it, and enter your choices there, one per line:
 "Phone", "Email", "In-person".
 
-![set-choice-values](../images/lightweight-crm/set-choice-values.png)
+![set-choice-values](images/lightweight-crm/set-choice-values.png)
 
 Now, if you click on a cell in the "Type" column and hit Enter, you can now choose from among the
 choices you set, or start typing and use auto-complete.
@@ -240,12 +240,12 @@ button on top of the left panel, then "Add Widget to Page".
 Select widget "Table" and data "Interactions". In the "Select By"
 dropdown at the bottom of the dialog, select "CONTACTS".
 
-![add-widget1](../images/lightweight-crm/add-widget1.png)
+![add-widget1](images/lightweight-crm/add-widget1.png)
 
 This means that choosing a contact will display only the interactions with that
 contact. Click "Add to Page" to finish.
 
-![two-tables](../images/lightweight-crm/two-tables.png)
+![two-tables](images/lightweight-crm/two-tables.png)
 
 Next, let's select a contact in the table on the left (let's use "Douglas LLC" in the fourth row) and add some notes for it. Type
 in a date (hint: the shortcut <code class="keys">*⌘* + **;** (semicolon)</code>
@@ -254,7 +254,7 @@ inserts today's date), select a type, and enter a note. As soon as
 that row is created, the "Contact" column is automatically filled with "Douglas LLC", thanks to
 the sections being linked.
 
-![add-record1](../images/lightweight-crm/add-record1.png)
+![add-record1](images/lightweight-crm/add-record1.png)
 
 The note we added is shown only when "Douglas LLC" is selected. We can add more notes for "Douglas
 LLC", or add notes for any of the other contacts.
@@ -262,12 +262,12 @@ LLC", or add notes for any of the other contacts.
 We can now hide the "Contact" column in the "Interactions" table: using the menu in the column's
 header, select "Hide Column". Because the tables are linked, we already see who the notes are for.
 
-![hide-column](../images/lightweight-crm/hide-column.png)
+![hide-column](images/lightweight-crm/hide-column.png)
 
 For longer notes to be convenient, resize the "Notes" column by dragging the right edge of its
 header. To wrap long notes, open the Column Options, and click the line-wrapping icon.
 
-![line-wrap](../images/lightweight-crm/line-wrap.png)
+![line-wrap](images/lightweight-crm/line-wrap.png)
 
 ## Customizing layout
 
@@ -279,13 +279,13 @@ interactions.
 This can be done by using "Add Widget to Page" again. This time, we'll select the widget "Card" for the table "Contacts", and
 for "Select By" will again use "CONTACTS".
 
-![add-widget-card](../images/lightweight-crm/add-widget-card.png)
+![add-widget-card](images/lightweight-crm/add-widget-card.png)
 
 You can move the resulting sections around to create a convenient layout. Move your mouse to the
 top left of each section until you see a "drag handle" icon. Use that icon to drag each section
 into the desired spot relative to other sections.
 
-![layout-drag](../images/lightweight-crm/layout-drag.png)
+![layout-drag](images/lightweight-crm/layout-drag.png)
 
 You can also resize sections by moving the mouse between them to find a dotted line. Drag this
 line to resize.
@@ -304,17 +304,17 @@ of the "Contacts" table, select "Widget options". In the panel that opens, find 
 columns". Move the mouse over each column to reveal the "eye" icon. Click it to hide all columns
 except "Company".
 
-![hide-column-eye](../images/lightweight-crm/hide-column-eye.png)
+![hide-column-eye](images/lightweight-crm/hide-column-eye.png)
 
 To customize the Card widget, click it. The right panel will show the relevant options. You can
 select a different Theme, e.g. "Compact".
 
-![theme-compact](../images/lightweight-crm/theme-compact.png)
+![theme-compact](images/lightweight-crm/theme-compact.png)
 
 To rearrange fields, click "Edit Layout" in the right panel. You can now drag-and-drop fields in
 the card, resize them, or remove them. Click "Save" once you are done.
 
-![edit-layout](../images/lightweight-crm/edit-layout.png)
+![edit-layout](images/lightweight-crm/edit-layout.png)
 
 In a few short steps, we have gone from a clunky, unwieldy spreadsheet to a concise, elegant
 record of your interactions in a simple, effective custom application.
@@ -338,25 +338,25 @@ For your first introduction to Grist, you are welcome to skip it.
 To set up To-Do items as in the example, select Column Options for the "Type" column in the
 Interactions table, and add another choice ("To-Do") to the list of choices:
 
-![add-todo-choice](../images/lightweight-crm/add-todo-choice.png)
+![add-todo-choice](images/lightweight-crm/add-todo-choice.png)
 
 Let's pick our contact "Douglas LLC" and add a To-Do item:
 
-![add-todo-item](../images/lightweight-crm/add-todo-item.png)
+![add-todo-item](images/lightweight-crm/add-todo-item.png)
 
 In the "Contacts" table, add two new columns:
 
-![col-add2](../images/lightweight-crm/col-add2.png)
+![col-add2](images/lightweight-crm/col-add2.png)
 
 Rename them to "Due" and "To-Do Items".
 
-![col-rename2](../images/lightweight-crm/col-rename2.png)
+![col-rename2](images/lightweight-crm/col-rename2.png)
 
 Both columns are calculated using formulas. Grist has great support for formulas, allowing
 full Python syntax and many Excel functions. In Grist, a formula always applies to the entire
 column of data. To enter a formula, click on a cell in the "Due" column, and hit "=" key:
 
-![formula-start](../images/lightweight-crm/formula-start.png)
+![formula-start](images/lightweight-crm/formula-start.png)
 
 In this formula, we want to look up all Interactions for the current Contact whose Type is
 "To-Do", then select the one with the earliest Date. Using Python syntax, the formula is:
@@ -372,7 +372,7 @@ Paste it in, or type in. When typing in multi-line formulas, use `Shift+Enter` t
 It's also a good time to change the column type to "Date". Open Column Options, and select
 "Date" for the type. You can choose the Date Format directly below the type.
 
-![date-format](../images/lightweight-crm/date-format.png)
+![date-format](images/lightweight-crm/date-format.png)
 
 For the "To-Do Items", enter a formula similarly. In case of multiple To-Do items, this formula
 will concatenate them, separated by line breaks. Click into the "To-Do Items" column, hit "=" to
@@ -394,13 +394,13 @@ date, find the To-Do item in the Interactions table where you created it.
 We'll want contacts with To-Do items to show up first, in order of the Due date. Click the
 triangle in the header of the "Due" column, and select "Sort A-Z".
 
-![sorting](../images/lightweight-crm/sorting.png)
+![sorting](images/lightweight-crm/sorting.png)
 
 By default, sorting settings are not saved. The highlighted green button in the top right of the
 "Contacts" table reminds us of that. To keep this sort order when you reopen the document, save it by
 clicking that green button and selecting "Save". You can also save by clicking the green check mark, to the right of the filter icon.
 
-![section-menu](../images/lightweight-crm/section-menu.png)
+![section-menu](images/lightweight-crm/section-menu.png)
 
 </div>
 

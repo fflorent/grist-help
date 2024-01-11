@@ -22,7 +22,7 @@ organized using a document with two tables, `Orders` and `Financials`.
 Now we are taking on more employees, and want to share the document with them while
 limiting their access to just what they need.
 
-![Access rules](../images/access-rules/access-rules-example.png)
+![Access rules](images/access-rules/access-rules-example.png)
 
 ## Default rules
 
@@ -32,7 +32,7 @@ clicking
 in the left sidebar. When no custom rules have been created yet,
 the access rules page contains the `Default Rules` for our document:
 
-![Access rules](../images/access-rules/access-rules-page.png)
+![Access rules](images/access-rules/access-rules-page.png)
 
 These rules say, in summary, that Owners and Editors can do anything within
 the document, that Viewers can only read the document, and everyone
@@ -53,7 +53,7 @@ its structure, as we plan to invite other specialized collaborators as Editors.
 To do this, uncheck the box for the first rule listed under 'Special Rules' to 
 disallow editors from editing structure. 
 
-![Access rules](../images/access-rules/access-rules-lock-structure.png)
+![Access rules](images/access-rules/access-rules-lock-structure.png)
 
 Once we've made changes, the `SAVE` button becomes an inviting green.  We
 click `SAVE` for the rule to take effect. 
@@ -77,7 +77,7 @@ them red.  `R` is Read, `U` is Update, `C` is Create, and `D` is Delete
 Structure (`S`) permissions are not available at the table level.
 Once you are done, click `SAVE`.
 
-![Access rules](../images/access-rules/access-rules-private-table.png)
+![Access rules](images/access-rules/access-rules-private-table.png)
 
 Now we could go ahead and share the document with a team member
 specialized in deliveries, for example.  We [share the
@@ -85,7 +85,7 @@ document](sharing.md) with them as an Editor so that the restrictions
 we've set up apply to them.  They won't see the `Financials` table in the
 left side bar, and attempts to open it will be denied:
 
-![Access rules](../images/access-rules/access-rules-private-table-is-hidden.png)
+![Access rules](images/access-rules/access-rules-private-table-is-hidden.png)
 
 ## Seed Rules
 
@@ -95,7 +95,7 @@ new table rules, you can write "seed rules." There is a checkbox above default r
 case easier with one click. Click it to write a seed rule that will automatically grant owners full access 
 whenever table rules are added. Click the `>` icon to uncollapse the seed rules table to modify seed rules.
 
-![access-rules-default-owner-access](../images/access-rules/access-rules-default-owner-access.png)
+![access-rules-default-owner-access](images/access-rules/access-rules-default-owner-access.png)
 
 ## Restrict access to columns
 
@@ -108,7 +108,7 @@ Click `Add Table Rules` and select `Orders` to create a rule group for the `Orde
 Now, in the `Rules for table Orders` group, click the three-dot icon (...), and
 select `Add Column Rule`:
 
-![Access rules](../images/access-rules/access-rules-limit-columns-rules.png)
+![Access rules](images/access-rules/access-rules-limit-columns-rules.png)
 
 In the `Columns` area we have a new `[Add Column]` dropdown to add all the columns
 to which we want the rule to apply (in our case `Email` and `Piece`).
@@ -117,7 +117,7 @@ for the email address of Kimberly, our fictional delivery specialist; we
 could also check by name or a numeric ID.  We turn all available permissions off for
 this user on these columns:
 
-![Access rules](../images/access-rules/access-rules-limit-columns-full-rules.png)
+![Access rules](images/access-rules/access-rules-limit-columns-full-rules.png)
 
 Now that the rules are ready, click `Save`.
 
@@ -125,7 +125,7 @@ If we have another employee who specializes in sourcing objects, and who needs t
 see a different set of columns, we can do that.  For example here we add a
 rule to withhold `Address` and `Phone` columns from user `Charon`:
 
-![Access rules](../images/access-rules/access-rules-sourcing-single.png)
+![Access rules](images/access-rules/access-rules-sourcing-single.png)
 
 ## View as another user
 
@@ -137,18 +137,18 @@ with, to see what their colleague would see.  The Owner does not
 coming from themselves and not the colleague - but they do see the
 document from the colleague's perspective.
 
-![Access rules](../images/access-rules/access-rules-view-as.png)
+![Access rules](images/access-rules/access-rules-view-as.png)
 
 In our example, we could select Kiwi, and the
 document reopens, with a large banner stating that we are viewing it
 as Kiwi.  The `Piece` and `Email` columns are missing,
 and the `Financials` table is surpressed:
 
-![Access rules](../images/access-rules/access-rules-view-as-kiwi.png)
+![Access rules](images/access-rules/access-rules-view-as-kiwi.png)
 
 You can also check in Raw Data to confirm only the expected tables, columns, and rows are exposed.
 
-![Access rules](../images/access-rules/access-rules-view-as-kiwi-raw-data.png)
+![Access rules](images/access-rules/access-rules-view-as-kiwi-raw-data.png)
 
 When satisfied that everything looks as expected, we click the green `View as Yourself` 
 button to close this preview, and the document will reload.
@@ -163,7 +163,7 @@ access rules.  For example, we can make a table called `Team`, and give it two
 columns, `Email` and `Role`, where `Role` is a choice between
 `Sourcing` and `Delivery`.
 
-![Access rules](../images/access-rules/access-rules-team-table.png)
+![Access rules](images/access-rules/access-rules-team-table.png)
 
 Now we can tell Grist to make information from this table available
 for access rules, by clicking on `Add User Attributes`.
@@ -173,7 +173,7 @@ this case).  Give a user property to match against
 rows in this table - in our case we'll use `user.Email`.  And the
 column to match against, `Email`.
 
-![Access rules](../images/access-rules/access-rules-team-attribute.png)
+![Access rules](images/access-rules/access-rules-team-attribute.png)
 
 Save that. Now we can update our rules to be more general.  We find with
 autocomplete that we have a new `user.Team` variable available in
@@ -181,13 +181,13 @@ condtions.  It makes columns from the `Team` available, such as `user.Team.Role`
 Now we can check if the user has a particular role, and apply the permissions
 that go with that:
 
-![Access rules](../images/access-rules/access-rules-team-rules.png)
+![Access rules](images/access-rules/access-rules-team-rules.png)
 
 Great!  Doing a spot check, Charon sees the expected columns for someone in
 Sourcing.  And if we recruit someone else to work with them, we can just add
 them in the `Team` table, no rule changes needed.
 
-![Access rules](../images/access-rules/access-rules-view-as-charon.png)
+![Access rules](images/access-rules/access-rules-view-as-charon.png)
 
 ## Row-level access control
 
@@ -196,7 +196,7 @@ So there's really no need for the two groups to see all the orders at once.  Let
 column called `Stage` that can be set to `Sourcing` or `Delivery`, so that we
 can update access rules to show only the relevant orders.
 
-![Access rules](../images/access-rules/access-rules-stage-column.png)
+![Access rules](images/access-rules/access-rules-stage-column.png)
 
 In the `Rules for table Orders` group, click the three-dot icon (...), and
 select `Add Default Rule` to add a rule that isn't limited to specific columns.
@@ -208,15 +208,15 @@ us to express rules that depend on the content within a particular record.
 Here, we check if the `Stage` column of a record matches the user's role.
 If it is, we allow `R` Read access:
 
-![Access rules](../images/access-rules/access-rules-stage-rules.png)
+![Access rules](images/access-rules/access-rules-stage-rules.png)
 
 Here's how the table looks now as Kimberly (doing deliveries):
 
-![Access rules](../images/access-rules/access-rules-stage-kiwi.png)
+![Access rules](images/access-rules/access-rules-stage-kiwi.png)
 
 And here's how the table looks as Charon (doing sourcing):
 
-![Access rules](../images/access-rules/access-rules-stage-charon.png)
+![Access rules](images/access-rules/access-rules-stage-charon.png)
 
 Kimberly and Charon now have read-only access to the table.  Owners still have full
 write access to all rows and columns.
@@ -248,17 +248,17 @@ and that the user is trying to change the Stage to `Done`. The `newRec` variable
 variant of `rec` available when the user is proposing to change a record, with `rec`
 containing its state before the change, and `newRec` its state after the proposed change.
 
-![Access rules](../images/access-rules/access-rules-delivery-done-rule.png)
+![Access rules](images/access-rules/access-rules-delivery-done-rule.png)
 
 Now, if we view the table as Kiwi, and try to change a `Stage` to `Sourcing`, we are
 denied:
 
-![Access rules](../images/access-rules/access-rules-delivery-done-forbid.png)
+![Access rules](images/access-rules/access-rules-delivery-done-forbid.png)
 
 If we change a `Stage` to `Done`, it works, and the record disappears from view since
 it is no longer in the `Delivery` stage:
 
-![Access rules](../images/access-rules/access-rules-delivery-done-allow.png)
+![Access rules](images/access-rules/access-rules-delivery-done-allow.png)
 
 ## Link keys
 
@@ -278,17 +278,17 @@ which can be used to access it.  Grist has a [`UUID()`](functions.md#uuid) funct
 gives a unique, random, and hard-to-guess identifier, so let's add a `UUID` column with
 formula `=UUID()`:
 
-![Access rules](../images/access-rules/access-rules-linkkey-uuid-formula.png)
+![Access rules](images/access-rules/access-rules-linkkey-uuid-formula.png)
 
 In fact we want `UUID()` to be called just once per order, when we create
 it, and never recomputed (because then it would change).  So in the right sidebar
 we convert the formula column to a data column, freezing its values:
 
-![Access rules](../images/access-rules/access-rules-linkkey-uuid-convert.png)
+![Access rules](images/access-rules/access-rules-linkkey-uuid-convert.png)
 
 This converts our formula to a trigger formula. We set the formula to apply to new records:
 
-![Access rules](../images/access-rules/access-rules-linkkey-uuid-data.png)
+![Access rules](images/access-rules/access-rules-linkkey-uuid-data.png)
 
 At this point we have a solid hard-to-guess code for each order in the
 `UUID` column, that will be created as we add new orders.  It can
@@ -301,25 +301,25 @@ embed the value of the `UUID` column into the URL.  We also set `label=$Ref`
 to control the text label of the link in the spreadsheet.  To show the link,
 we set the column type to `Text` and set the `HyperLink` option:
 
-![Access rules](../images/access-rules/access-rules-linkkey-link.png)
+![Access rules](images/access-rules/access-rules-linkkey-link.png)
 
 Once we have these links, we can tidy up a little by hiding the
 `UUID` and `Ref` columns (see [Column operations](widget-table.md#column-operations) for a refresher on how
 to do this):
 
-![Access rules](../images/access-rules/access-rules-linkkey-prune.png)
+![Access rules](images/access-rules/access-rules-linkkey-prune.png)
 
 The links don't do anything special yet, but we have everything we
 need to make that happen now.  Here is an example of access rules to
 allow anyone with a UUID in their URL to read any order with a
 matching UUID (otherwise only owners can read orders in this case):
 
-![Access rules](../images/access-rules/access-rules-linkkey-rule.png)
+![Access rules](images/access-rules/access-rules-linkkey-rule.png)
 
 And here is what a non-owner now sees, with the UUID of the first order in their
 URL:
 
-![Access rules](../images/access-rules/access-rules-linkkey-use.png)
+![Access rules](images/access-rules/access-rules-linkkey-use.png)
 
 This is just the beginning of the possibilities.  Link keys can give access to
 multiple rows across many tables.  They can be used in
@@ -413,15 +413,15 @@ rule, it can be helpful to give specific details that will help them understand
 the problem.  You can do this by adding a memo for the condition. First, click 
 the memo icon to the right of your condition.
 
-![Comment Icon](../images/access-rules/access-rules-comment-icon.png)
+![Comment Icon](images/access-rules/access-rules-comment-icon.png)
 
 Type the error message you wish to display into the entry box. Be sure to save your changes.
 
-![Comment Added](../images/access-rules/access-rules-comment-added.png)
+![Comment Added](images/access-rules/access-rules-comment-added.png)
 
 When the rule blocks a user from performing an action, the memo will appear as a notification.
 
-![Duplicate error](../images/access-rules/access-rules-dupe-forbidden.png)
+![Duplicate error](images/access-rules/access-rules-dupe-forbidden.png)
 
 For an explanation of how this particular Access Rule works, see [Access Rules to Restrict Duplicate Records](../examples/2023-01-acl-memo.md)
 
