@@ -58,7 +58,7 @@ Documents shared with you will be shown in your personal site and do not count a
 
 You may navigate between your [personal site](teams.md#understanding-personal-sites) and [team sites](teams.md) by clicking in the top-left corner to open a drop-down menu of sites to which you have access.
 
-<center>*![Navigating between sites](../images/faq/personal-and-team-site.png)*</center>
+<center>*![Navigating between sites](images/faq/personal-and-team-site.png)*</center>
 
 ### How to manage ownership of my team site?
 
@@ -90,7 +90,7 @@ If you’re transferring team site ownership between two Grist email accounts th
 
 You may edit your site name and subdomain from the billing page. Open the [user menu](glossary.md#user-menu) by clicking on the profile icon in the top-right of Grist, then click on [“Billing Account.”](teams.md#billing-account)
 
-<center>*![Public access](../images/faq/edit-subdomain.png)*</center>
+<center>*![Public access](images/faq/edit-subdomain.png)*</center>
 
 ---
 
@@ -122,7 +122,7 @@ Non-English characters are supported in column labels, but not column ids, which
 
 To [edit column labels and ids](col-types.md#renaming-columns) separately, open the creator panel and select the column menu. Click the link icon that joins label to id to enable column id editing. While non-English characters are not supported, it is possible to edit the ids into something more clear and friendly to use in formulas. 
 
-<center>*![Editing column labels and id](../images/faq/editing-col-label-id.png)*</center>
+<center>*![Editing column labels and id](images/faq/editing-col-label-id.png)*</center>
 
 ### How do I sum the total of a column?
 
@@ -159,7 +159,7 @@ There are many ways to share Grist data with non-team members.
 1. **Guests.** Each document may be shared with 2 guests (non-team members) at no additional cost.
 2. **Link Sharing.** In share settings, there is an option to turn on [public access](sharing.md#public-access-and-link-sharing). The public access role can be set to viewer or editor. Anyone with a link can view (or edit) your data. Those views would not count towards your plan's user count. The document is visible to anyone with the link, however, so use caution when working with sensitive data.
 
-<center>*![Public access](../images/faq/link-sharing.png)*</center>
+<center>*![Public access](images/faq/link-sharing.png)*</center>
 
 3. **Restricted View-only link sharing.** With view-only link sharing, there is a way to further restrict what people can see by using Grist's access rules to set specific URL parameters called [link keys](access-rules.md#link-keys) that determine which tables, columns, or rows are shown when a specific link is shared. 
 

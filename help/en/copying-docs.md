@@ -3,7 +3,7 @@
 It is sometimes useful to make a copy, or clone, of a Grist document. A few scenarios are described below. In
 all cases, you would start with the "Share" menu available from the top bar of an open document:
 
-<span class="screenshot-large">*![Share Menu](../images/copying-docs/open-share-menu.png)*</span>
+<span class="screenshot-large">*![Share Menu](images/copying-docs/open-share-menu.png)*</span>
 {: .screenshot-half }
 
 ## Trying Out Changes
@@ -14,7 +14,7 @@ affecting the original.
 
 Open the Share menu and click the option "Work on a Copy".
 
-<span class="screenshot-large">*![Work on a Copy](../images/copying-docs/work-on-copy.png)*</span>
+<span class="screenshot-large">*![Work on a Copy](images/copying-docs/work-on-copy.png)*</span>
 {: .screenshot-half }
 
 You'll get an unsaved copy of your document. This copy is special in that it knows which original
@@ -30,12 +30,12 @@ When working on a copy, the Share menu has some new options. For example,
 you can view differences between the document copy and the original,
 using the "Compare to Original" menu item:
 
-<span class="screenshot-large">*![Compare Menu](../images/newsletters/2020-11/compare-menu.png)*</span>
+<span class="screenshot-large">*![Compare Menu](images/newsletters/2020-11/compare-menu.png)*</span>
 {: .screenshot-half }
 
 New material will be highlighted in green, and old material in red.
 
-![Show Differences](../images/newsletters/2020-11/show-diffs.png)
+![Show Differences](images/newsletters/2020-11/show-diffs.png)
 
 Once satisfied with your changes, click the option "Replace Original". Your copy will replace the
 original document. Grist will warn you if the replacement risks overwriting any recent changes in
@@ -68,7 +68,7 @@ your changes and apply them to the original document.
 You can save your document under a new name using the "Duplicate Document" option in the Share
 menu. Clicking it opens a dialog:
 
-<span class="screenshot-large">*![Save Copy Dialog](../images/copying-docs/save-copy-dialog.png)*</span>
+<span class="screenshot-large">*![Save Copy Dialog](images/copying-docs/save-copy-dialog.png)*</span>
 {: .screenshot-half }
 
 Type in the new name. If you have access to one or more team accounts, you may have a choice of a
@@ -97,7 +97,7 @@ Backups](automatic-backups.md).
 When you open a public example from the [Examples & Templates page](https://docs.getgrist.com/p/templates),
 it will open the example in [fiddle mode](glossary.md#fiddle-mode).
 
-<span class="screenshot-large">*![Fiddle Mode](../images/copying-docs/fiddle-mode.png)*</span>
+<span class="screenshot-large">*![Fiddle Mode](images/copying-docs/fiddle-mode.png)*</span>
 {: .screenshot-half }
 
 Fiddle mode is similar to working on a copy, as described above in [Trying Out Changes](#trying-out-changes).

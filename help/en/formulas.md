@@ -12,13 +12,13 @@ and the unit price of each.  You've made a column to show
 the quantity times the unit price, but want the computer to do
 that part for you.
 
-<span class="screenshot-large">*![formulas-price](../images/formulas/formulas-price.png)*</span>
+<span class="screenshot-large">*![formulas-price](images/formulas/formulas-price.png)*</span>
 {: .screenshot-half }
 
 Just select a cell in the column you want to fill, and hit <code class="keys">**=**</code> key to
 tell Grist you want to enter a formula, rather than a value.
 
-<span class="screenshot-large">*![formulas-price-equal](../images/formulas/formulas-price-equal.png)*</span>
+<span class="screenshot-large">*![formulas-price-equal](images/formulas/formulas-price-equal.png)*</span>
 {: .screenshot-half }
 
 Did you notice, when you did that, the labels of the columns changed
@@ -30,7 +30,7 @@ Or if you don't like typing, click on the Quantity column, type the
 multiplication symbol, and then click on the Unit Price column.
 Your formula should look like this:
 
-<span class="screenshot-large">*![formulas-price-multiply](../images/formulas/formulas-price-multiply.png)*</span>
+<span class="screenshot-large">*![formulas-price-multiply](images/formulas/formulas-price-multiply.png)*</span>
 {: .screenshot-half }
 
 To control the column ID, like "$Unit\_Price", that's used in formulas, see
@@ -38,7 +38,7 @@ To control the column ID, like "$Unit\_Price", that's used in formulas, see
 
 Press <code class="keys">*Enter*</code>, and your formula is applied to all cells in the column.
 
-<span class="screenshot-large">*![formulas-price-final](../images/formulas/formulas-price-final.png)*</span>
+<span class="screenshot-large">*![formulas-price-final](images/formulas/formulas-price-final.png)*</span>
 {: .screenshot-half }
 
 If you've worked with spreadsheets before, you may be surprised
@@ -50,7 +50,7 @@ and can refer to values in the same row without fuss.
 You can format numeric columns to look better by [setting column
 type](col-types.md#specifying-a-type) to `Numeric`, and selecting suitable formatting options:
 
-<span class="screenshot-large">*![formulas-price-final](../images/formulas/formulas-price-formatted.png)*</span>
+<span class="screenshot-large">*![formulas-price-final](images/formulas/formulas-price-formatted.png)*</span>
 {: .screenshot-half }
 
 ## Column behavior
@@ -69,7 +69,7 @@ up-to-date by Grist.
 - `Empty column` is a state for a new column. Typing any value into it will turn it into a
 Data Column, while typing in a formula will turn it into a Formula Column
 
-![formulas-column-behavior](../images/formulas/formulas-column-behavior.png)
+![formulas-column-behavior](images/formulas/formulas-column-behavior.png)
 
 Using the `COLUMN BEHAVIOR` section, you can manually change the column behavior. The most
 common options are available as green action buttons at the bottom, and other options are
@@ -89,7 +89,7 @@ lost. They'll be replaced by the calculation results from the formula.)
 Column` state.
 
 
-![formulas-column-behavior-options](../images/formulas/formulas-column-behavior-options.png)
+![formulas-column-behavior-options](images/formulas/formulas-column-behavior-options.png)
 
 ## Python
 
@@ -110,7 +110,7 @@ tables](summary-tables.md) may be exactly what you need.  Or if you
 want to set things up yourself, you can add an extra table widget like
 this (see [Page widgets](page-widgets.md) for details):
 
-![formulas-widgets](../images/formulas/formulas-widgets.png)
+![formulas-widgets](images/formulas/formulas-widgets.png)
 
 This is just another table, giving us a place to put formulas outside
 of the structure of the Materials table.  For example, if we wanted
@@ -195,7 +195,7 @@ keep your document more organized.  And it brings other advantages.
 For example we could switch the formatting of the summary widget
 via the side panel:
 
-![formulas-widgets-card](../images/formulas/formulas-widgets-card.png)
+![formulas-widgets-card](images/formulas/formulas-widgets-card.png)
 
 ## Varying formula by row
 
@@ -219,7 +219,7 @@ Once you have a lot of formulas, or if you have been invited to a document
 and want to get an overview of its formulas, there is a code viewer
 available with a pure Python summary of the document.
 
-![formulas-code-view](../images/formulas/formulas-code-view.png)
+![formulas-code-view](images/formulas/formulas-code-view.png)
 
 ## Special values available in formulas
 
@@ -245,17 +245,17 @@ If you'd like to save the output of your formula as plain values, you can simply
 column behavior from `Formula Column` to `Data Column`. First open the column options in
 the side panel:
 
-![formulas-column-options](../images/formulas/formulas-column-options.png)
+![formulas-column-options](images/formulas/formulas-column-options.png)
 
 Now click on the `Formula Column` and select `Convert column to data` option.
 
-![formulas-action-menu](../images/formulas/formulas-action-menu.png)
+![formulas-action-menu](images/formulas/formulas-action-menu.png)
 
 Notice that there is no ``=`` sign in the column cells any more, showing that it
 is no longer a formula.  The cells will no longer change if other cells they used
 to depend on change.
 
-![formulas-turn-off-formula](../images/formulas/formulas-turn-off-formula.png)
+![formulas-turn-off-formula](images/formulas/formulas-turn-off-formula.png)
 
 The original formula is saved but stays inactive. It may come useful
 again if you wish to convert the column back to a formula column, or
@@ -276,7 +276,7 @@ to a specific category.  We can do this using `TABLE.lookupRecords`, where `TABL
 interest, and supplying it with the column values
 to match.  For example, `Materials.lookupRecords(Category='Ship')`{: .formula}, as here:
 
-![formulas-column-options](../images/formulas/formulas-lookup-unsorted.png)
+![formulas-column-options](images/formulas/formulas-lookup-unsorted.png)
 
 If you are following on, see [Adding a field](widget-card.md#adding-a-field)
 for details of how to add a new field to a card.  If you care about the order
@@ -312,7 +312,7 @@ $events + (yesterday.cumulative or 0)
 ```
 
 
-![formulas-recursion](../images/formulas/formulas-recursion.png)
+![formulas-recursion](images/formulas/formulas-recursion.png)
 
 
 For clarity, we've split this formula into two lines.  The first line
@@ -352,12 +352,12 @@ To create a Trigger Formula column, you first need to open the creator panel and
 click on the `Set trigger formula` action. If you want to convert an existing formula, use
 the `Convert to trigger formula` action available in the `COLUMN BEHAVIOR` section.
 
-![formulas-column-behavior](../images/formulas/formulas-column-behavior.png)
+![formulas-column-behavior](images/formulas/formulas-column-behavior.png)
 
 To control when the formula is evaluated, use the two checkbox options 
 below:
 
-![a Created-At column](../images/formulas/formulas-created-at-final.png)
+![a Created-At column](images/formulas/formulas-created-at-final.png)
 
 - `Apply to new records` triggers the formula only when a new record is 
 created (a default cell value).
@@ -369,7 +369,7 @@ default values to the empty cells. Second option allows you to fine grain
 the conditions and specify which columns, when updated, will trigger the 
 evaluation:
 
-![an Updated-At column](../images/formulas/formulas-updated-at.png)
+![an Updated-At column](images/formulas/formulas-updated-at.png)
 
 You probably noticed the first option `Current field`. At first glance, you
 probably wonder: "Why would I want to trigger the column on its own 
@@ -388,17 +388,17 @@ This allows you to make your application even smarter, track when a record
 Simple examples:
 
 1. Ensure that the value in a column is always written in capital letters:
-![data cleanup - uppercase](../images/formulas/formulas-trigger-uppercase.png) 
+![data cleanup - uppercase](images/formulas/formulas-trigger-uppercase.png) 
 With the trigger formula of `value.upper()`{: .formula}, the value typed into
 this column will be converted to upper case automatically.  
 
 2. Format a value that the user enters to sanitize the data before saving:
-![data cleanup - format](../images/formulas/formulas-trigger-format.png)
+![data cleanup - format](images/formulas/formulas-trigger-format.png)
 With the formula like `value if value.startswith("SK") else "SK" + value`{: .formula},
 the value typed into this column will always be prefixed with "SK".
 
 3. Overwrite a default value from a referenced table:
-![data cleanup - reference](../images/formulas/formulas-trigger-reference.png)
+![data cleanup - reference](images/formulas/formulas-trigger-reference.png)
 You can use a formula like `value or $Client.Phone`{: .formula}, to provide a default
 value from a referenced table, but still allow the user to type a new one.
 
