@@ -9,7 +9,7 @@ repo_url: "https://github.com/gristlabs/grist-help"
 # (which is confused by them).
 use_directory_urls: !ENV [HTMLPROOFER_OVERRIDE_USE_DIRECTORY_URLS, true]
 
-docs_dir: './help'
+docs_dir: './docs'
 # windmill is a theme maintained by Grist Labs in https://github.com/gristlabs/mkdocs-windmill
 theme:
   name: windmill
@@ -183,15 +183,15 @@ extra:
   google_tag_manager: 'GTM-5FDHKQ9'
   alternate:
   - name: English
-    link: /en/
+    link: ""
     lang: en
   - name: French
     link: /fr/
     lang: fr
 extra_css:
-  - css/grist.css
+  - /css/grist.css
 extra_javascript:
-  - js/grist.js
+  - /js/grist.js
 
 plugins:
   - search:

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{config.theme.language}}">
 <head>
   {% set is_top = (page and page.is_homepage) and not force_plain_page %}
   {% set base_url = base_url or "." %}
@@ -100,9 +100,6 @@
   {%- else -%}
 <div class="container-fluid wm-page-content">
   <a name="_top"></a>
-  {%- if config.extra.article_nav_top != False %}
-    {% include "article-nav.html" %}
-  {%- endif %}
 
   {%- block content %}
     {% if page and page.meta.source %}
@@ -117,10 +114,6 @@
   {%- endblock %}
 
   <br>
-  {%- if config.extra.article_nav_bottom != False %}
-    {% include "article-nav.html" %}
-    <br>
-  {%- endif %}
 </div>
 
 <script>
@@ -175,11 +168,11 @@
   {%- block repo %}
     {%- if page and page.edit_url %}
       <p>
-        <a href="{{ page.edit_url }}">{% include 'repo-icon.html' %}Edit on {{ config.repo_name }}</a>
+        <a href="{{ page.edit_url }}">Edit on {{ config.repo_name }}</a>
       </p>
     {%- elif config.repo_url %}
       <p>
-        <a href="{{ config.repo_url }}">{% include 'repo-icon.html' %}{{ config.repo_name }}</a>
+        <a href="{{ config.repo_url }}">{{ config.repo_name }}</a>
       </p>
     {%- endif %}
   {%- endblock %}

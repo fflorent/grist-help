@@ -1,4 +1,4 @@
 INHERIT: ../../mkdocs.yml
 theme:
   custom_dir: ../../overrides
-  locale: en
+  language: en
