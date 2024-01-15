@@ -7,12 +7,13 @@ set -x
 # Source: https://stackoverflow.com/questions/35800082/how-to-trap-err-when-using-set-e-in-bash
 trap 'echo >&2 "Error - exited with status $? at line $LINENO.";' ERR
 
-source ./env/bin/activate
+dir="$(dirname -- "$0")"
+source $dir/env/bin/activate
 
-nav_files=$(cat ./mkdocs.yml | yq -r '[.nav | .. | strings] | map(select(. | endswith(".md"))) | .[]')
+nav_files=$(cat $dir/mkdocs.yml | yq -r '[.nav | .. | strings] | map(select(. | endswith(".md"))) | .[]')
 
-target_en_dir="$(readlink -f "./site")/en"
-pushd help/
+target_en_dir="$(readlink -f "$dir/site")/en"
+pushd $dir/help/
   # Get all directories that contain two characters (language code)
   lang_dirs=??
 
@@ -35,6 +36,6 @@ pushd help/
   done
 popd
 echo "moving english site to root"
-rsync -av --inplace "$target_en_dir"/* ./site/
+rsync -av --inplace "$target_en_dir"/* $dir/site/
 echo "Copying assets"
-rsync -av --inplace "./help/assets/"* "./site/"
+rsync -av --inplace "$dir/help/assets/"* "$dir/site/"

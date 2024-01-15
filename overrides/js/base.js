@@ -129,6 +129,15 @@ function initMainWindow() {
 
   // Initialize search functionality.
   initSearch();
+
+  $('#wm-language-select').on('change', function() {
+    var currentLang = document.documentElement.lang || 'en';
+    if (currentLang === 'en') {
+      currentLang = '';
+    }
+
+    location.pathname = location.pathname.replace(new RegExp('^/' + currentLang), $(this).val());
+  });
 }
 
 // Other initialization of iframe contents.
@@ -158,7 +167,8 @@ function initSearch() {
   var searchResults = $('#mkdocs-search-results');
 
   // Fetch the prebuilt index data, and add to the index.
-  $.getJSON(getUrl('/search/search_index.json'))
+  var lang = document.documentElement.lang || 'en';
+  $.getJSON(getUrl('/' + lang + '/search/search_index.json'))
   .done(function(data) {
     data.docs.forEach(function(doc) {
       searchIndex.addDoc(doc);
