@@ -1,8 +1,6 @@
 OpenID Connect {: .tag-core .tag-ee }
 ====
 
-Continual
-
 Configuration for OIDC, useful for organization single-sign-on logins.
 A good informative overview of OIDC is at <https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc>
 
