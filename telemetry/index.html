@@ -21,10 +21,21 @@ maintained by Grist Labs.">
     
     <link rel="canonical" href="https://support.getgrist.com/telemetry/">
     <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="me" href="https://fosstodon.org/@grist">
     <meta name="thumbnail" content="https://support.getgrist.com/images/favicon.png">
     <meta property="og:image" content="https://support.getgrist.com/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Overview of Telemetry - Grist Help Center</title>
+    
+  
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5FDHKQ9');</script>
+  <!-- End Google Tag Manager -->
     <link href="/css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="/css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="/css/base.css" rel="stylesheet">
@@ -46,16 +57,6 @@ maintained by Grist Labs.">
     </script>
     <script src="/js/base.js"></script>
       <script src="../js/grist.js"></script>
-    
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-5FDHKQ9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GTM-5FDHKQ9');
-  </script>
     <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
@@ -98,6 +99,13 @@ maintained by Grist Labs.">
 </head>
 
 <body>
+  
+  
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FDHKQ9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 <nav class="navbar wm-page-top-frame">
   <div class="container-fluid wm-top-container">
@@ -124,6 +132,13 @@ maintained by Grist Labs.">
     <div class="wm-top-tool wm-vcenter pull-right wm-small-left wm-top-toc-button">
       <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
     </div>
+    <select id="wm-language-select" class="wm-top-tool wm-vcenter pull-right wm-small-left" name="lang"
+      
+      >
+      
+      <option value="/" selected>en - English</option>
+      
+    </select>
 
     
     
@@ -257,7 +272,15 @@ maintained by Grist Labs.">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../widget-form/" class="wm-article-link wm-toc-text">Form</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../widget-chart/" class="wm-article-link wm-toc-text">Chart</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../widget-calendar/" class="wm-article-link wm-toc-text">Calendar</a>
 
     
 </li>
@@ -270,6 +293,10 @@ maintained by Grist Labs.">
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../custom-layouts/" class="wm-article-link wm-toc-text">Custom layouts</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../record-cards/" class="wm-article-link wm-toc-text">Record Cards</a>
 
     
 </li>
@@ -340,6 +367,17 @@ maintained by Grist Labs.">
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../formula-cheat-sheet/" class="wm-article-link wm-toc-text">Formula Cheat Sheet</a>
+
+    
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">AI Assistant</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../ai-assistant/" class="wm-article-link wm-toc-text">AI Assistant</a>
 
     
 </li>
@@ -432,6 +470,14 @@ maintained by Grist Labs.">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/DocApiTypes.SqlPost/" class="wm-article-link wm-toc-text">Interface: SqlPost</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/DocApiTypes.TablePost/" class="wm-article-link wm-toc-text">Interface: TablePost</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/GristData.RowRecord/" class="wm-article-link wm-toc-text">Interface: RowRecord</a>
 
     
@@ -461,6 +507,18 @@ maintained by Grist Labs.">
     
 </li>
       <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.ColumnToMap/" class="wm-article-link wm-toc-text">Interface: ColumnToMap</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.CursorPos/" class="wm-article-link wm-toc-text">Interface: CursorPos</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.CustomSectionAPI/" class="wm-article-link wm-toc-text">Interface: CustomSectionAPI</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.FetchSelectedOptions/" class="wm-article-link wm-toc-text">Interface: FetchSelectedOptions</a>
 
     
 </li>
@@ -542,6 +600,10 @@ maintained by Grist Labs.">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../install/oidc/" class="wm-article-link wm-toc-text">OIDC</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../install/forwarded-headers/" class="wm-article-link wm-toc-text">Forwarded headers</a>
 
     
@@ -551,6 +613,10 @@ maintained by Grist Labs.">
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../install/grist-connect/" class="wm-article-link wm-toc-text">GristConnect</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../install/aws-marketplace/" class="wm-article-link wm-toc-text">AWS Marketplace</a>
 
     
 </li>
@@ -594,6 +660,34 @@ maintained by Grist Labs.">
 <li class="wm-toc-li-nested collapse">
   <ul class="wm-toctree">
       <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/" class="wm-article-link wm-toc-text">Newsletters</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2024-01/" class="wm-article-link wm-toc-text">2024/01</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-12/" class="wm-article-link wm-toc-text">2023/12</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-11/" class="wm-article-link wm-toc-text">2023/11</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-10/" class="wm-article-link wm-toc-text">2023/10</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-09/" class="wm-article-link wm-toc-text">2023/09</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-08/" class="wm-article-link wm-toc-text">2023/08</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-07/" class="wm-article-link wm-toc-text">2023/07</a>
 
     
 </li>
@@ -820,6 +914,10 @@ maintained by Grist Labs.">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../examples/2023-07-proposals-contracts/" class="wm-article-link wm-toc-text">Proposals & Contracts</a>
+
+    
+</li>
   </ul>
 </li>
 
@@ -871,7 +969,7 @@ maintained by Grist Labs.">
     </ul>
     <ul class="wm-toctree wm-toc-repo">
       <li class="wm-toc-li wm-toc-lev2">
-      <a class="wm-quick-link wm-toc-text" href="https://github.com/gristlabs/grist-help/">
+      <a class="wm-quick-link wm-toc-text" href="https://github.com/gristlabs/grist-help">
         <i class="fa fa-github"></i>
 
         Edit on GitHub
@@ -914,10 +1012,10 @@ maintained by Grist Labs.">
     </div>
     
     <div class="wm-article-nav">
-      <a href="../install/grist-connect/" class="btn btn-xs btn-default pull-left">
+      <a href="../install/aws-marketplace/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../install/grist-connect/" class="btn btn-xs btn-link">
-        GristConnect
+        Previous</a><a href="../install/aws-marketplace/" class="btn btn-xs btn-link">
+        AWS Marketplace
       </a>
     </div>
     
@@ -931,7 +1029,7 @@ aimed at quantifying aspects of how Grist is used. A self-managed
 installation of Grist by default does no telemetry.
 When telemetry is enabled, data about usage is sent to a service
 maintained by Grist Labs.</p>
-<p>Telemetry is currently configured by optional environment variables:</p>
+<p>Telemetry may be configured by optional environment variables:</p>
 <ul>
 <li><code>GRIST_TELEMETRY_LEVEL</code>. This may be <code>off</code>, <code>limited</code>,
     or <code>full</code>. The default is <code>off</code>. A setting of <code>limited</code> or
@@ -947,6 +1045,8 @@ maintained by Grist Labs.</p>
     If you are running a large hosted service, you may wish to
     direct telemetry to a service you control.</li>
 </ul>
+<p>Telemetry may also be configured interactively by the owner of
+a Grist installation, see <a href="../self-managed/#how-do-i-control-telemetry">How do I control telemetry?</a> for details.</p>
 <p>The <code>limited</code> setting results in some coarse-grained telemetry. This
 level is intended for an installation of Grist that has opted in to
 providing telemetry. The goal is to understand how Grist is used “in
@@ -965,49 +1065,60 @@ details of exactly what is sent.</p>
   <br>
 </div>
 
-<script>
-  function giveFeedback(event) {
-    document.getElementsByClassName('feedback-box-buttons')[0].style.display = 'none';
-    document.getElementsByClassName('feedback-box-response')[0].style.display = 'block';
-    const page = window.location.href;
-
-    // No formal telemetry endpoint yet, so use /api/log for practice.
-    // Results can still be queried just less systematically.
-    const url = new URL('https://docs.getgrist.com/api/log');
-    // Duplicate info in query parameters so it is logged with URL in case
-    // body isn't logged (hard to test until live on *.getgrist.com).
-    url.searchParams.set('event', event);
-    url.searchParams.set('page', page);
-
-    fetch(url.href, {
-      method: 'POST',
-      body: JSON.stringify({
-        event,
-        docId: null,
-        page,
-        source: 'support',
-      }),
-      credentials: 'include',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Requested-With': 'XMLHttpRequest',
-      }
-    }).catch(e => {
-      console.warn('Failed to report feedback', e);
-    });
-  }
-</script>
 <div class="feedback-box">
   <div class="feedback-box-title">Give Feedback</div>
   <div class="feedback-box-question">Was this article helpful?</div>
   <div class="feedback-box-buttons">
-    <div class="feedback-box-button" onclick="javascript:giveFeedback('thumbsUp')">&#x1F44D;</div>
-    <div class="feedback-box-button" onclick="javascript:giveFeedback('thumbsDown')">&#x1F44E;</div>
+    <button class="feedback-box-button" data-rating="thumbsUp">&#x1F44D;</button>
+    <button class="feedback-box-button" data-rating="thumbsDown">&#x1F44E;</button>
   </div>
-  <div class="feedback-box-response" style="display: none;">
+  <div class="feedback-box-response">
     Thank you for letting us know!
   </div>
-</div><footer class="col-md-12 wm-page-content">
+</div>
+
+<script>
+function initFeedbackButtons() {
+  const serverUrl = "https://docs.getgrist.com";
+  const feedbackBox = document.querySelector('.feedback-box');
+  const buttons = document.querySelectorAll('.feedback-box-button');
+  document.querySelector('.feedback-box-buttons').addEventListener('click', giveFeedback);
+
+  async function giveFeedback(event) {
+    const rating = event.target.dataset.rating;
+    if (!rating) { return; }
+    buttons.forEach(b => { b.disabled = true; });
+    try {
+      console.log("Sending rating to " + serverUrl + '/api/telemetry');
+      const resp = await window.fetch(serverUrl + '/api/telemetry', makePayload(rating));
+      if (!resp.ok) { throw new Error(resp.statusText); }
+    } catch (err) {
+      console.warn('Failed to report feedback', err);
+      document.querySelector('.feedback-box-response').textContent = String(err);
+    } finally {
+      buttons.forEach(b => { b.disabled = false; });
+      feedbackBox.classList.add('feedback-submitted');
+    }
+  }
+
+  function makePayload(rating) {
+    const url = window.location.href;
+    return {
+      method: 'POST',
+      body: JSON.stringify({
+        event: 'ratedHelpCenterArticle',
+        metadata: {full: {url, rating}},
+      }),
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+    };
+  }
+}
+initFeedbackButtons();
+</script><footer class="col-md-12 wm-page-content">
       <p>
         <a href="https://github.com/gristlabs/grist-help/edit/master/docs/telemetry.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>

@@ -17,10 +17,21 @@ Suppose we have a list of some of the largest objects in America:">
     
     <link rel="canonical" href="https://support.getgrist.com/examples/2020-12-map/">
     <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="me" href="https://fosstodon.org/@grist">
     <meta name="thumbnail" content="https://support.getgrist.com/images/favicon.png">
     <meta property="og:image" content="https://support.getgrist.com/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Map - Grist Help Center</title>
+    
+  
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5FDHKQ9');</script>
+  <!-- End Google Tag Manager -->
     <link href="/css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="/css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="/css/base.css" rel="stylesheet">
@@ -42,16 +53,6 @@ Suppose we have a list of some of the largest objects in America:">
     </script>
     <script src="/js/base.js"></script>
       <script src="../../js/grist.js"></script>
-    
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-5FDHKQ9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GTM-5FDHKQ9');
-  </script>
     <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
@@ -94,6 +95,13 @@ Suppose we have a list of some of the largest objects in America:">
 </head>
 
 <body>
+  
+  
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FDHKQ9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 <nav class="navbar wm-page-top-frame">
   <div class="container-fluid wm-top-container">
@@ -120,6 +128,13 @@ Suppose we have a list of some of the largest objects in America:">
     <div class="wm-top-tool wm-vcenter pull-right wm-small-left wm-top-toc-button">
       <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
     </div>
+    <select id="wm-language-select" class="wm-top-tool wm-vcenter pull-right wm-small-left" name="lang"
+      
+      >
+      
+      <option value="/" selected>en - English</option>
+      
+    </select>
 
     
     
@@ -253,7 +268,15 @@ Suppose we have a list of some of the largest objects in America:">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../widget-form/" class="wm-article-link wm-toc-text">Form</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../../widget-chart/" class="wm-article-link wm-toc-text">Chart</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../widget-calendar/" class="wm-article-link wm-toc-text">Calendar</a>
 
     
 </li>
@@ -266,6 +289,10 @@ Suppose we have a list of some of the largest objects in America:">
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../../custom-layouts/" class="wm-article-link wm-toc-text">Custom layouts</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../record-cards/" class="wm-article-link wm-toc-text">Record Cards</a>
 
     
 </li>
@@ -336,6 +363,17 @@ Suppose we have a list of some of the largest objects in America:">
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../../formula-cheat-sheet/" class="wm-article-link wm-toc-text">Formula Cheat Sheet</a>
+
+    
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">AI Assistant</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../ai-assistant/" class="wm-article-link wm-toc-text">AI Assistant</a>
 
     
 </li>
@@ -428,6 +466,14 @@ Suppose we have a list of some of the largest objects in America:">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/DocApiTypes.SqlPost/" class="wm-article-link wm-toc-text">Interface: SqlPost</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/DocApiTypes.TablePost/" class="wm-article-link wm-toc-text">Interface: TablePost</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/GristData.RowRecord/" class="wm-article-link wm-toc-text">Interface: RowRecord</a>
 
     
@@ -457,6 +503,18 @@ Suppose we have a list of some of the largest objects in America:">
     
 </li>
       <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/grist_plugin_api.ColumnToMap/" class="wm-article-link wm-toc-text">Interface: ColumnToMap</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/grist_plugin_api.CursorPos/" class="wm-article-link wm-toc-text">Interface: CursorPos</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/grist_plugin_api.CustomSectionAPI/" class="wm-article-link wm-toc-text">Interface: CustomSectionAPI</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../../code/interfaces/grist_plugin_api.FetchSelectedOptions/" class="wm-article-link wm-toc-text">Interface: FetchSelectedOptions</a>
 
     
 </li>
@@ -538,6 +596,10 @@ Suppose we have a list of some of the largest objects in America:">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../install/oidc/" class="wm-article-link wm-toc-text">OIDC</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../../install/forwarded-headers/" class="wm-article-link wm-toc-text">Forwarded headers</a>
 
     
@@ -547,6 +609,10 @@ Suppose we have a list of some of the largest objects in America:">
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../../install/grist-connect/" class="wm-article-link wm-toc-text">GristConnect</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../install/aws-marketplace/" class="wm-article-link wm-toc-text">AWS Marketplace</a>
 
     
 </li>
@@ -577,6 +643,34 @@ Suppose we have a list of some of the largest objects in America:">
 <li class="wm-toc-li-nested collapse">
   <ul class="wm-toctree">
       <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/" class="wm-article-link wm-toc-text">Newsletters</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2024-01/" class="wm-article-link wm-toc-text">2024/01</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2023-12/" class="wm-article-link wm-toc-text">2023/12</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2023-11/" class="wm-article-link wm-toc-text">2023/11</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2023-10/" class="wm-article-link wm-toc-text">2023/10</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2023-09/" class="wm-article-link wm-toc-text">2023/09</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2023-08/" class="wm-article-link wm-toc-text">2023/08</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../../newsletters/2023-07/" class="wm-article-link wm-toc-text">2023/07</a>
 
     
 </li>
@@ -816,6 +910,10 @@ Suppose we have a list of some of the largest objects in America:">
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../2023-07-proposals-contracts/" class="wm-article-link wm-toc-text">Proposals & Contracts</a>
+
+    
+</li>
   </ul>
 </li>
 
@@ -867,7 +965,7 @@ Suppose we have a list of some of the largest objects in America:">
     </ul>
     <ul class="wm-toctree wm-toc-repo">
       <li class="wm-toc-li wm-toc-lev2">
-      <a class="wm-quick-link wm-toc-text" href="https://github.com/gristlabs/grist-help/">
+      <a class="wm-quick-link wm-toc-text" href="https://github.com/gristlabs/grist-help">
         <i class="fa fa-github"></i>
 
         Edit on GitHub
@@ -925,18 +1023,18 @@ Suppose we have a list of some of the largest objects in America:">
 <p>It can be useful sometimes to visualize lists of locations on a geographic map.
 Grist can do that if a table has at least a <code>Name</code>, <code>Latitude</code>, and <code>Longitude</code> column.
 Suppose we have a list of some of the largest objects in America:</p>
-<p><img alt="List of large objects" src="/examples/images/2020-12-map/large-objects.png" /></p>
+<p><img alt="List of large objects" src="../images/2020-12-map/large-objects.png" /></p>
 <p>The first step to making a map for these is to add a <a href="../../widget-custom/">Custom Widget</a> to the page:</p>
-<p><img alt="Add custom widget" src="/examples/images/2020-12-map/add-custom.png" /></p>
+<p><img alt="Add custom widget" src="../images/2020-12-map/add-custom.png" /></p>
 <p>Once we set the widget to be <code>https://gristlabs.github.io/grist-widget/map/</code>
 and give it <code>Read table</code> access, a map should appear:</p>
-<p><img alt="Add map widget" src="/examples/images/2020-12-map/set-map.png" /></p>
+<p><img alt="Add map widget" src="../images/2020-12-map/set-map.png" /></p>
 <p>Clicking around in the list of objects brings up the corresponding
 &ldquo;pop-up&rdquo; on the map.
 We can add other sections to taste, such as a detail &ldquo;card&rdquo; view
 of the attraction&rsquo;s details. This example is available at
 <a href="https://public.getgrist.com/3boQPJrgFmFi/Large-in-America/m/fork" target="_blank">https://public.getgrist.com/3boQPJrgFmFi/Large-in-America/m/fork</a>.</p>
-<p><img alt="Large in America" src="/examples/images/2020-12-map/large-in-america.png" /></p>
+<p><img alt="Large in America" src="../images/2020-12-map/large-in-america.png" /></p>
 <p>This example has some hidden columns related to geocoding (the process
 of automatically calculating coordinates from addresses).  You can see
 these on the second page called <code>Geocoding</code>.  They are <code>Geocode</code>,
@@ -948,7 +1046,7 @@ it is simply <code>", ".join([$City, $State])</code>.  The <code>GeocodedAddress
 be left untouched; it is a space for the geocoder to store information.
 Finally, <code>Geocode</code> is a toggle that should be turned on to automatically
 generate latitude and longitudes.</p>
-<p><img alt="Geocoding" src="/examples/images/2020-12-map/geocoding.png" /></p>
+<p><img alt="Geocoding" src="../images/2020-12-map/geocoding.png" /></p>
 <p>The geocoder will not touch any rows
 with <code>Geocode</code> turned off.  When <code>Geocode</code> is turned on for a row,
 latitudes and longitudes are computed and stored automatically for that row
@@ -966,49 +1064,60 @@ If you need a hand, just let us know.</p>
   <br>
 </div>
 
-<script>
-  function giveFeedback(event) {
-    document.getElementsByClassName('feedback-box-buttons')[0].style.display = 'none';
-    document.getElementsByClassName('feedback-box-response')[0].style.display = 'block';
-    const page = window.location.href;
-
-    // No formal telemetry endpoint yet, so use /api/log for practice.
-    // Results can still be queried just less systematically.
-    const url = new URL('https://docs.getgrist.com/api/log');
-    // Duplicate info in query parameters so it is logged with URL in case
-    // body isn't logged (hard to test until live on *.getgrist.com).
-    url.searchParams.set('event', event);
-    url.searchParams.set('page', page);
-
-    fetch(url.href, {
-      method: 'POST',
-      body: JSON.stringify({
-        event,
-        docId: null,
-        page,
-        source: 'support',
-      }),
-      credentials: 'include',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Requested-With': 'XMLHttpRequest',
-      }
-    }).catch(e => {
-      console.warn('Failed to report feedback', e);
-    });
-  }
-</script>
 <div class="feedback-box">
   <div class="feedback-box-title">Give Feedback</div>
   <div class="feedback-box-question">Was this article helpful?</div>
   <div class="feedback-box-buttons">
-    <div class="feedback-box-button" onclick="javascript:giveFeedback('thumbsUp')">&#x1F44D;</div>
-    <div class="feedback-box-button" onclick="javascript:giveFeedback('thumbsDown')">&#x1F44E;</div>
+    <button class="feedback-box-button" data-rating="thumbsUp">&#x1F44D;</button>
+    <button class="feedback-box-button" data-rating="thumbsDown">&#x1F44E;</button>
   </div>
-  <div class="feedback-box-response" style="display: none;">
+  <div class="feedback-box-response">
     Thank you for letting us know!
   </div>
-</div><footer class="col-md-12 wm-page-content">
+</div>
+
+<script>
+function initFeedbackButtons() {
+  const serverUrl = "https://docs.getgrist.com";
+  const feedbackBox = document.querySelector('.feedback-box');
+  const buttons = document.querySelectorAll('.feedback-box-button');
+  document.querySelector('.feedback-box-buttons').addEventListener('click', giveFeedback);
+
+  async function giveFeedback(event) {
+    const rating = event.target.dataset.rating;
+    if (!rating) { return; }
+    buttons.forEach(b => { b.disabled = true; });
+    try {
+      console.log("Sending rating to " + serverUrl + '/api/telemetry');
+      const resp = await window.fetch(serverUrl + '/api/telemetry', makePayload(rating));
+      if (!resp.ok) { throw new Error(resp.statusText); }
+    } catch (err) {
+      console.warn('Failed to report feedback', err);
+      document.querySelector('.feedback-box-response').textContent = String(err);
+    } finally {
+      buttons.forEach(b => { b.disabled = false; });
+      feedbackBox.classList.add('feedback-submitted');
+    }
+  }
+
+  function makePayload(rating) {
+    const url = window.location.href;
+    return {
+      method: 'POST',
+      body: JSON.stringify({
+        event: 'ratedHelpCenterArticle',
+        metadata: {full: {url, rating}},
+      }),
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+    };
+  }
+}
+initFeedbackButtons();
+</script><footer class="col-md-12 wm-page-content">
       <p>
         <a href="https://github.com/gristlabs/grist-help/edit/master/docs/examples/2020-12-map.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>

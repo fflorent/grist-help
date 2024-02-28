@@ -13,10 +13,21 @@
     
     <link rel="canonical" href="https://support.getgrist.com/col-types/">
     <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="me" href="https://fosstodon.org/@grist">
     <meta name="thumbnail" content="https://support.getgrist.com/images/favicon.png">
     <meta property="og:image" content="https://support.getgrist.com/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Columns & types - Grist Help Center</title>
+    
+  
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5FDHKQ9');</script>
+  <!-- End Google Tag Manager -->
     <link href="/css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="/css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="/css/base.css" rel="stylesheet">
@@ -38,16 +49,6 @@
     </script>
     <script src="/js/base.js"></script>
       <script src="../js/grist.js"></script>
-    
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-5FDHKQ9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GTM-5FDHKQ9');
-  </script>
     <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
@@ -90,6 +91,13 @@
 </head>
 
 <body>
+  
+  
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FDHKQ9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 <nav class="navbar wm-page-top-frame">
   <div class="container-fluid wm-top-container">
@@ -116,6 +124,13 @@
     <div class="wm-top-tool wm-vcenter pull-right wm-small-left wm-top-toc-button">
       <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
     </div>
+    <select id="wm-language-select" class="wm-top-tool wm-vcenter pull-right wm-small-left" name="lang"
+      
+      >
+      
+      <option value="/" selected>en - English</option>
+      
+    </select>
 
     
     
@@ -249,7 +264,15 @@
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../widget-form/" class="wm-article-link wm-toc-text">Form</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../widget-chart/" class="wm-article-link wm-toc-text">Chart</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../widget-calendar/" class="wm-article-link wm-toc-text">Calendar</a>
 
     
 </li>
@@ -262,6 +285,10 @@
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../custom-layouts/" class="wm-article-link wm-toc-text">Custom layouts</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../record-cards/" class="wm-article-link wm-toc-text">Record Cards</a>
 
     
 </li>
@@ -298,8 +325,18 @@
               </a>
             </li>
             <li class="wm-toc-li">
+              <a class="wm-article-link wm-page-toc-text" href="#reordering-columns">
+                Reordering columns
+              </a>
+            </li>
+            <li class="wm-toc-li">
               <a class="wm-article-link wm-page-toc-text" href="#renaming-columns">
                 Renaming columns
+              </a>
+            </li>
+            <li class="wm-toc-li">
+              <a class="wm-article-link wm-page-toc-text" href="#formatting-columns">
+                Formatting columns
               </a>
             </li>
             <li class="wm-toc-li">
@@ -426,6 +463,17 @@
   </ul>
 </li>
 
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">AI Assistant</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../ai-assistant/" class="wm-article-link wm-toc-text">AI Assistant</a>
+
+    
+</li>
+  </ul>
+</li>
+
         <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Team Sites</span>
 </li>
 <li class="wm-toc-li-nested collapse">
@@ -512,6 +560,14 @@
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/DocApiTypes.SqlPost/" class="wm-article-link wm-toc-text">Interface: SqlPost</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/DocApiTypes.TablePost/" class="wm-article-link wm-toc-text">Interface: TablePost</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/GristData.RowRecord/" class="wm-article-link wm-toc-text">Interface: RowRecord</a>
 
     
@@ -541,6 +597,18 @@
     
 </li>
       <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.ColumnToMap/" class="wm-article-link wm-toc-text">Interface: ColumnToMap</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.CursorPos/" class="wm-article-link wm-toc-text">Interface: CursorPos</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.CustomSectionAPI/" class="wm-article-link wm-toc-text">Interface: CustomSectionAPI</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="../code/interfaces/grist_plugin_api.FetchSelectedOptions/" class="wm-article-link wm-toc-text">Interface: FetchSelectedOptions</a>
 
     
 </li>
@@ -622,6 +690,10 @@
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../install/oidc/" class="wm-article-link wm-toc-text">OIDC</a>
+
+    
+</li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../install/forwarded-headers/" class="wm-article-link wm-toc-text">Forwarded headers</a>
 
     
@@ -631,6 +703,10 @@
     
 </li>
       <li class="wm-toc-li wm-toc-lev2 "><a href="../install/grist-connect/" class="wm-article-link wm-toc-text">GristConnect</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../install/aws-marketplace/" class="wm-article-link wm-toc-text">AWS Marketplace</a>
 
     
 </li>
@@ -661,6 +737,34 @@
 <li class="wm-toc-li-nested collapse">
   <ul class="wm-toctree">
       <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/" class="wm-article-link wm-toc-text">Newsletters</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2024-01/" class="wm-article-link wm-toc-text">2024/01</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-12/" class="wm-article-link wm-toc-text">2023/12</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-11/" class="wm-article-link wm-toc-text">2023/11</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-10/" class="wm-article-link wm-toc-text">2023/10</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-09/" class="wm-article-link wm-toc-text">2023/09</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-08/" class="wm-article-link wm-toc-text">2023/08</a>
+
+    
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../newsletters/2023-07/" class="wm-article-link wm-toc-text">2023/07</a>
 
     
 </li>
@@ -887,6 +991,10 @@
 
     
 </li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="../examples/2023-07-proposals-contracts/" class="wm-article-link wm-toc-text">Proposals & Contracts</a>
+
+    
+</li>
   </ul>
 </li>
 
@@ -938,7 +1046,7 @@
     </ul>
     <ul class="wm-toctree wm-toc-repo">
       <li class="wm-toc-li wm-toc-lev2">
-      <a class="wm-quick-link wm-toc-text" href="https://github.com/gristlabs/grist-help/">
+      <a class="wm-quick-link wm-toc-text" href="https://github.com/gristlabs/grist-help">
         <i class="fa fa-github"></i>
 
         Edit on GitHub
@@ -1003,9 +1111,35 @@ select &ldquo;Rename column&rdquo; (you can also just click on the column header
 <p>To delete a column, hover on the column header, click on the drop-down, then
 select &ldquo;Delete column&rdquo;.</p>
 <p class="screenshot-half"><span class="screenshot-large"><em><img alt="columns-delete-column" src="../images/columns/columns-delete-column.png" /></em></span></p>
-<p>To add a column, click on the &ldquo;+&rdquo; symbol in the header row, then type in
-the column name.</p>
-<p class="screenshot-half"><em><img alt="Add column" src="../images/columns/columns-add-column.png" /></em></p>
+<p>To add a column, click on the &ldquo;+&rdquo; symbol in the header row to open the &ldquo;Add Column&rdquo; menu.</p>
+<p><img alt="Add column" src="../images/columns/columns-add-column.png" /></p>
+<p>The first option in the menu, &ldquo;Add Column&rdquo;, will add a new, empty data column to your table.</p>
+<p>If you know what column type you need, the next option allows you to assign a type for your new column. Select a column type from the expanded menu.</p>
+<p class="screenshot-half"><em><img alt="Add new column type" src="../images/columns/columns-add-new-column-type.png" /></em></p>
+<p>The third option, &ldquo;Add formula column&rdquo;, will add a new formula column with the formula entry box immediately opened so you can begin entering your formula without additional clicks.</p>
+<p><img alt="Add formula column" src="../images/columns/columns-add-formula-column.png" /></p>
+<p>&ldquo;Hidden Columns&rdquo; expands to show a list of columns hidden from this view that can be quickly added back.</p>
+<p class="screenshot-half"><em><img alt="Add hidden column" src="../images/columns/columns-add-hidden-column.png" /></em></p>
+<p>&ldquo;Lookups&rdquo; allows you to add data columns from related tables. You can use reference columns to relate data in different tables. Learn more about <a href="../references-lookups/">References and Lookups</a>.</p>
+<p class="screenshot-half"><em><img alt="Add lookup column" src="../images/columns/columns-add-lookup.png" /></em></p>
+<p>&ldquo;Shortcuts&rdquo; lists the most frequently used <a href="../formulas/#trigger-formulas">trigger formula</a> functions.</p>
+<p class="screenshot-half"><em><img alt="Add shortcut column" src="../images/columns/columns-add-shortcut.png" /></em></p>
+<p>Learn more about each shortcut option at the links below:</p>
+<ul>
+<li>
+<p><a href="../formula-cheat-sheet/#examples-of-automatic-date-time-and-author-stamps">Timestamp</a></p>
+</li>
+<li>
+<p><a href="../formula-cheat-sheet/#examples-of-automatic-date-time-and-author-stamps">Authorship</a></p>
+</li>
+<li>
+<p><a href="../formula-cheat-sheet/#finding-duplicates">Detect Duplicates in&hellip;</a></p>
+</li>
+<li>
+<p><a href="../access-rules/#link-keys">UUID</a></p>
+</li>
+</ul>
+<h2 id="reordering-columns">Reordering columns<a class="headerlink" href="#reordering-columns" title="Permanent link">#</a></h2>
 <p>To reorder a column, first select the column if it isn&rsquo;t already selected,
 by clicking on the column header.  Next, click and hold on the column header.
 After a second or two, you&rsquo;ll be able to drag the entire column to its new
@@ -1017,18 +1151,31 @@ reorder them.  You can also hide columns here.</p>
 <p class="screenshot-half"><em><img alt="Visible columns" src="../images/columns/columns-visible-columns.png" /></em></p>
 <h2 id="renaming-columns">Renaming columns<a class="headerlink" href="#renaming-columns" title="Permanent link">#</a></h2>
 <p>You can rename columns in several ways.  One way is to
-click on the column header when the column is already selected.
-Another is to hover on the column
-header, click on the drop-down, then select &ldquo;Rename Column&rdquo;.
-Another is by selecting &ldquo;Column Options&rdquo; in the same drop-down, and editing the &ldquo;Field&rdquo;
-name shown at the top.  A bonus with this method is that you can also control
+double click a column header. Then, you can rename the column or add a column description.</p>
+<p class="screenshot-half"><em><img alt="rename columns" src="../images/columns/columns-rename-header.png" /></em></p>
+<p>You can also hover on the column header, click on the drop-down, then select &ldquo;Rename Column&rdquo;. This opens the same
+pop up seen above.</p>
+<p class="screenshot-half"><em><img alt="rename columns" src="../images/columns/columns-rename-renamecolumn.png" /></em></p>
+<p>Selecting &ldquo;Column Options&rdquo; in the same drop-down opens the creator panel. From here, you can edit the
+Column Label, shown at the top or add a description.</p>
+<p class="screenshot-half"><em><img alt="rename columns" src="../images/columns/columns-rename-creatorpanel.png" /></em></p>
+<p>A bonus with this method is that you can also control
 the identifier given to the column
 in formulas.  By default this is based on the field name, with any
 characters Python doesn&rsquo;t like replaced with &ldquo;_&ldquo;, and a number added if needed
 to keep the name unique within your table.  If you don&rsquo;t like this identifier, you
-can change it, though it will still need to be Python-friendly.  To change
-the name, deselect &ldquo;Use Name as ID&rdquo; if it is selected, and edit the &ldquo;ID&rdquo; entry now
-shown.</p>
+can change it, though it will still need to be Python-friendly.  Click the link icon to make the
+ID field editable, then enter the new Column ID.</p>
+<p class="screenshot-half"><em><img alt="rename columns" src="../images/columns/columns-rename-col-id.png" /></em></p>
+<h2 id="formatting-columns">Formatting columns<a class="headerlink" href="#formatting-columns" title="Permanent link">#</a></h2>
+<p>Header and cell styles can be modified under the Column tab of the creator panel. </p>
+<p class="screenshot-half"><em><img alt="columns-formatting" src="../images/columns/columns-formatting.png" /></em></p>
+<p>When you open the styling menu, you have the option to apply text formatting as well as text and fill colors. </p>
+<p><em><img alt="columns-formatting-options" src="../images/columns/columns-formatting-options.png" /></em></p>
+<p>If you want more color options, click the fill color box then find the shade you want. If you have a specific color you wish to use,
+ you can enter the hex code, RGB or HSL values.</p>
+<p class="screenshot-half"><em><img alt="column-formatting-hex" src="../images/columns/column-formatting-hex.png" /></em></p>
+<p>Cell style can also be changed based on conditional rules. Learn more about <a href="../conditional-formatting/">Conditional Formatting</a>.</p>
 <h2 id="specifying-a-type">Specifying a type<a class="headerlink" href="#specifying-a-type" title="Permanent link">#</a></h2>
 <p>Grist columns have types, similar to other spreadsheets or databases.  The type of a column
 controls its appearance and the help Grist will offer you when editing cells.</p>
@@ -1270,49 +1417,60 @@ a way to rename them, download them, or remove them.</p>
   <br>
 </div>
 
-<script>
-  function giveFeedback(event) {
-    document.getElementsByClassName('feedback-box-buttons')[0].style.display = 'none';
-    document.getElementsByClassName('feedback-box-response')[0].style.display = 'block';
-    const page = window.location.href;
-
-    // No formal telemetry endpoint yet, so use /api/log for practice.
-    // Results can still be queried just less systematically.
-    const url = new URL('https://docs.getgrist.com/api/log');
-    // Duplicate info in query parameters so it is logged with URL in case
-    // body isn't logged (hard to test until live on *.getgrist.com).
-    url.searchParams.set('event', event);
-    url.searchParams.set('page', page);
-
-    fetch(url.href, {
-      method: 'POST',
-      body: JSON.stringify({
-        event,
-        docId: null,
-        page,
-        source: 'support',
-      }),
-      credentials: 'include',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Requested-With': 'XMLHttpRequest',
-      }
-    }).catch(e => {
-      console.warn('Failed to report feedback', e);
-    });
-  }
-</script>
 <div class="feedback-box">
   <div class="feedback-box-title">Give Feedback</div>
   <div class="feedback-box-question">Was this article helpful?</div>
   <div class="feedback-box-buttons">
-    <div class="feedback-box-button" onclick="javascript:giveFeedback('thumbsUp')">&#x1F44D;</div>
-    <div class="feedback-box-button" onclick="javascript:giveFeedback('thumbsDown')">&#x1F44E;</div>
+    <button class="feedback-box-button" data-rating="thumbsUp">&#x1F44D;</button>
+    <button class="feedback-box-button" data-rating="thumbsDown">&#x1F44E;</button>
   </div>
-  <div class="feedback-box-response" style="display: none;">
+  <div class="feedback-box-response">
     Thank you for letting us know!
   </div>
-</div><footer class="col-md-12 wm-page-content">
+</div>
+
+<script>
+function initFeedbackButtons() {
+  const serverUrl = "https://docs.getgrist.com";
+  const feedbackBox = document.querySelector('.feedback-box');
+  const buttons = document.querySelectorAll('.feedback-box-button');
+  document.querySelector('.feedback-box-buttons').addEventListener('click', giveFeedback);
+
+  async function giveFeedback(event) {
+    const rating = event.target.dataset.rating;
+    if (!rating) { return; }
+    buttons.forEach(b => { b.disabled = true; });
+    try {
+      console.log("Sending rating to " + serverUrl + '/api/telemetry');
+      const resp = await window.fetch(serverUrl + '/api/telemetry', makePayload(rating));
+      if (!resp.ok) { throw new Error(resp.statusText); }
+    } catch (err) {
+      console.warn('Failed to report feedback', err);
+      document.querySelector('.feedback-box-response').textContent = String(err);
+    } finally {
+      buttons.forEach(b => { b.disabled = false; });
+      feedbackBox.classList.add('feedback-submitted');
+    }
+  }
+
+  function makePayload(rating) {
+    const url = window.location.href;
+    return {
+      method: 'POST',
+      body: JSON.stringify({
+        event: 'ratedHelpCenterArticle',
+        metadata: {full: {url, rating}},
+      }),
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+    };
+  }
+}
+initFeedbackButtons();
+</script><footer class="col-md-12 wm-page-content">
       <p>
         <a href="https://github.com/gristlabs/grist-help/edit/master/docs/col-types.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
