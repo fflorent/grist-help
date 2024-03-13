@@ -57,7 +57,7 @@ containers.
 To try Grist out using Docker, make an empty directory for Grist to store material in (say `~/grist`) and then for Grist Core you can do:
 
 ```
-docker run -p 8484:8484 \
+docker run --init -p 8484:8484 \
   -v ~/grist:/persist \
   -e GRIST_SESSION_SECRET=invent-a-secret-here \
   -it gristlabs/grist
@@ -590,7 +590,7 @@ docker run --rm --network grist --name minio \
 # Make sure to enable versioning on the bucket.
 
 # Hook Grist up to Redis and MinIO
-docker run --rm --network grist \
+docker run --init --rm --network grist \
   -e GRIST_DOCS_MINIO_ACCESS_KEY=grist \
   -e GRIST_DOCS_MINIO_SECRET_KEY=admingrist \
   -e GRIST_DOCS_MINIO_USE_SSL=0 \
