@@ -1,0 +1,8 @@
+name: I would like to report a bug, request an enhancement, ... (Regular issue)
+description: Use this template for any kind of issue not listed below
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
